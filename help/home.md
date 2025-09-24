@@ -1,9 +1,9 @@
 ---
 title: AI i Experience Cloud-program
 description: Läs om hur Experience Cloud-program använder generativ AI (GenAI), AI Assistant och agentisk AI.
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: 58cce845f525e7762f32379a8db5791b677ae54f
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -59,10 +59,9 @@ Finns i Customer Journey Analytics:
 
 Gör att Journey Optimizer-användare kan:
 
-- Skapa, analysera och optimera resor med det naturliga språket
+- Analysera och optimera resorna med det naturliga språket
 - Upptäck och lös schemaläggnings- eller målgruppskonflikter
 - Analysera prestanda och bortfallspunkter
-- Identifiera högpresterande resor för replikering
 
 #### Produktsupportagent
 
