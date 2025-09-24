@@ -4,9 +4,9 @@ description: Omfattande guide till Journey Agent Analyze-kunskaper som gör det 
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 56dbe826fc73cbf699f08b12014b2b73d2bab71b
+source-git-commit: cf29a28477881b400b32b4623ccff2e626010e10
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Med Journey Agent kan Journey Optimizer-användare analysera och optimera resor 
 >Journey Agent är tillgängligt för alla kunder som har tillgång till AI Assistant. Du behöver dock följande behörigheter för att kunna använda Journey Agent-funktionerna fullt ut.
 >
 >**Visa resor**: Med den här behörigheten kan du använda Journey Agent för att visa insikter om resan direkt i AI Assistant.
->&#x200B;>**Hantera resor**: Med behörigheten Till kan du använda Journey Agent för att skapa nya resor direkt i AI Assistant.
->&#x200B;>**Visa segment**: Med den här behörigheten kan du använda Journey Agent för att visa insikter om målgrupper direkt i AI Assistant.
->&#x200B;>**Hantera segment**: Med behörigheten Till kan du använda Journey Agent för att skapa nya målgrupper direkt i AI Assistant.
+>>**Hantera resor**: Med behörigheten Till kan du använda Journey Agent för att skapa nya resor direkt i AI Assistant.
+>>**Visa segment**: Med den här behörigheten kan du använda Journey Agent för att visa insikter om målgrupper direkt i AI Assistant.
+>>**Hantera segment**: Med behörigheten Till kan du använda Journey Agent för att skapa nya målgrupper direkt i AI Assistant.
 
 ![Exempel för AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -105,7 +105,10 @@ Här är exempel på användbara tips som användare kan använda för att utfor
 
 ### Bortfallsanalys
 
-
+- &quot;Jag vill analysera bortfallet per nod för den fjärde resan i juli-kampanjen.&quot;
+- &quot;Utför en falloutanalys för resa Fjärde juli-kampanjen.&quot;
+- &quot;Vad är förlust av profiler under resan Fjärde juli-kampanjen?&quot;
+- &quot;Visa var användarna faller bort på resa Fjärde juli-kampanjen.&quot;
 
 ### Fråga om konfliktanalys
 
