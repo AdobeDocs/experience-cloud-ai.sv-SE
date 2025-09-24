@@ -1,24 +1,31 @@
 ---
-title: Journey Agent Analytics - översikt och användarhandbok
+title: Reseanalys - Översikt över kompetens och användarhandbok för agent
 description: Omfattande guide till Journey Agent Analyze-kunskaper som gör det möjligt för användare att analysera marknadsföringsresor, upptäcka problem, identifiera insikter och optimera kundengagemanget.
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-hide: true
-hidefromtoc: true
-source-git-commit: 3bab2928fba6d06785797630e405b216cc080fd2
+source-git-commit: 56dbe826fc73cbf699f08b12014b2b73d2bab71b
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
 
-# Journey Agent Analyze: Kunskapsöversikt och användarhandbok
+# Reseanalysagent: Kompetensöversikt och användarhandbok
 
 ## Översikt
 
-Med Journey Agent kan Journey Optimizer-användare skapa, analysera och optimera resor med ett naturligt språkgränssnitt. Med Journey Agent kan yrkesutövare snabbt skapa resor, upptäcka och lösa schemaläggnings- eller målgruppskonflikter, analysera prestanda och bortfall samt identifiera högpresterande resor som kan återskapas för framtida kampanjer. Det ger praktikanterna möjlighet att fatta datadrivna beslut, förbättra kundengagemanget och effektivisera resesamordning.
+Med Journey Agent kan Journey Optimizer-användare analysera och optimera resor med ett naturligt språkgränssnitt. Med Journey Agent kan man snabbt hitta och lösa scheman- och/eller målgruppskonflikter, upptäcka när man överger en resa och ge insikter eller rekommendationer. Det ger praktikanterna möjlighet att fatta datadrivna beslut, förbättra kundengagemanget och effektivisera resesamordning.
+
+>[!AVAILABILITY]
+>
+>Journey Agent är tillgängligt för alla kunder som har tillgång till AI Assistant. Du behöver dock följande behörigheter för att kunna använda Journey Agent-funktionerna fullt ut.
+>
+>**Visa resor**: Med den här behörigheten kan du använda Journey Agent för att visa insikter om resan direkt i AI Assistant.
+>>**Hantera resor**: Med behörigheten Till kan du använda Journey Agent för att skapa nya resor direkt i AI Assistant.
+>>**Visa segment**: Med den här behörigheten kan du använda Journey Agent för att visa insikter om målgrupper direkt i AI Assistant.
+>>**Hantera segment**: Med behörigheten Till kan du använda Journey Agent för att skapa nya målgrupper direkt i AI Assistant.
 
 ![Exempel för AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -50,6 +57,8 @@ Journey Agent Analyze erbjuder en rad funktioner som kan utnyttjas för att opti
 
    - Promptbaserade reseinsikter - få operativa insikter om resor, dvs.&quot;visa mig alla resor live&quot;.
 
+För var och en av dessa analyser identifierar agenten inte bara problem utan tillhandahåller även **användbara rekommendationer för att åtgärda dem**.
+
 
 ## Kompetens inom och utanför omfång
 
@@ -59,6 +68,7 @@ Följande funktioner stöds av Journey Agent Analyze:
 
 - **Reaktiva frågor**: Tillåter användare att ställa specifika frågor om reseprestanda, målgruppsanvändning och schemaläggningskonflikter.
 - **Integrering med andra agenter**: Samarbetar med Audience Agent och Data Insights Agent för djupgående analyser.
+- **Åtgärdsstruktur för agentsvar**: resonemang (förklara logiken), analyssammanfattning (framhäv viktiga punkter), felinformation (beskriv problemet) och rekommendation (föreslå nästa steg).
 
 ### **Odefinierat**
 
@@ -92,6 +102,10 @@ Här är exempel på användbara tips som användare kan använda för att utfor
 
 - &quot;Vilka målgrupper används i fler än X resor?&quot;
 - &quot;Visa alla resor som använder målgruppen [målgruppsnamn].&quot;
+
+### Bortfallsanalys
+
+
 
 ### Fråga om konfliktanalys
 
