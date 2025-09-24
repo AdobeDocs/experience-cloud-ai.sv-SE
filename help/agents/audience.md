@@ -1,9 +1,9 @@
 ---
 title: Audience Agent
 description: Lär dig hur du använder Audience Agent för att skapa målgrupper, visa förändringar av målgrupper, identifiera dubblerade målgrupper och visa målgruppsinsikter.
-source-git-commit: 6d1f6a8c6a97bbbad88c0dd8123fac7821f06754
+source-git-commit: d91aac948a6fef36949218004dc0481dc8f5cf7f
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >Audience Agent är tillgängligt för alla kunder som har tillgång till AI Assistant. Du behöver dock följande behörigheter för att kunna använda Audience Agent-funktionerna fullt ut.
 >
 >**Visa segment**: Med den här behörigheten kan du använda Audience Agent för att visa insikter om målgrupperna direkt i AI Assistant.
->&#x200B;>**Hantera segment**: Med behörigheten Till kan du använda Audience Agent för att skapa nya målgrupper direkt i AI Assistant.
+>>**Hantera segment**: Med behörigheten Till kan du använda Audience Agent för att skapa nya målgrupper direkt i AI Assistant.
 
 Med Audience Agent kan ni visa insikter om målgrupper, inklusive att identifiera betydande förändringar i målgruppsstorlek, identifiera dubblerade målgrupper, utforska era målgruppslager och hämta era målgruppers storlek.
 
@@ -33,7 +33,7 @@ Audience Agent i AI Assistant stöder följande användningsområden:
 - Upptäck XDM-fält som du kan använda för att definiera en målgrupp
    - Med den här kompetensen kan ni enklare identifiera rätt fält att använda i er målgrupp baserat på sammanhang och relevans
 
-Audience Agent stöder för närvarande **inte** följande funktioner:
+Audience Agent stöder för närvarande inte **för** följande funktioner:
 
 - Kunskapsbaserad målgruppsproduktion
    - Kunskapsbaserade målgrupper skapar en målgrupp baserat på angivna attribut och händelser
