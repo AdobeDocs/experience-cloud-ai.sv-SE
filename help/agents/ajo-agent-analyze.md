@@ -23,9 +23,9 @@ Med Journey Agent kan Journey Optimizer-användare analysera och optimera resor 
 >Journey Agent är tillgängligt för alla kunder som har tillgång till AI Assistant. Du behöver dock följande behörigheter för att kunna använda Journey Agent-funktionerna fullt ut.
 >
 >**Visa resor**: Med den här behörigheten kan du använda Journey Agent för att visa insikter om resan direkt i AI Assistant.
->>**Hantera resor**: Med behörigheten Till kan du använda Journey Agent för att skapa nya resor direkt i AI Assistant.
->>**Visa segment**: Med den här behörigheten kan du använda Journey Agent för att visa insikter om målgrupper direkt i AI Assistant.
->>**Hantera segment**: Med behörigheten Till kan du använda Journey Agent för att skapa nya målgrupper direkt i AI Assistant.
+>&#x200B;>**Hantera resor**: Med behörigheten Till kan du använda Journey Agent för att skapa nya resor direkt i AI Assistant.
+>&#x200B;>**Visa segment**: Med den här behörigheten kan du använda Journey Agent för att visa insikter om målgrupper direkt i AI Assistant.
+>&#x200B;>**Hantera segment**: Med behörigheten Till kan du använda Journey Agent för att skapa nya målgrupper direkt i AI Assistant.
 
 ![Exempel för AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
