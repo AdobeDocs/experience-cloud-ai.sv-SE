@@ -16,7 +16,7 @@ ht-degree: 0%
 >Audience Agent är tillgängligt för alla kunder som har tillgång till AI Assistant. Du behöver dock följande behörigheter för att kunna använda Audience Agent-funktionerna fullt ut.
 >
 >**Visa segment**: Med den här behörigheten kan du använda Audience Agent för att visa insikter om målgrupperna direkt i AI Assistant.
->>**Hantera segment**: Med behörigheten Till kan du använda Audience Agent för att skapa nya målgrupper direkt i AI Assistant.
+>&#x200B;>**Hantera segment**: Med behörigheten Till kan du använda Audience Agent för att skapa nya målgrupper direkt i AI Assistant.
 
 Med Audience Agent kan ni visa insikter om målgrupper, inklusive att identifiera betydande förändringar i målgruppsstorlek, identifiera dubblerade målgrupper, utforska era målgruppslager och hämta era målgruppers storlek.
 
