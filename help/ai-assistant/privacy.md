@@ -30,5 +30,5 @@ Läs det här dokumentet om du vill veta mer om funktioner som är inriktade på
 * AI-assistenten omges av sandlådespecifika data och offentlig Adobe-dokumentation när användaren besvarar uppmaningar. Data delas inte över sandlådor.
 * Frågar som du anger för AI Assistant delas inte med andra kunder.
 
-&amp;ast; *Det innebär att om nya etiketter läggs till i fält och objekt eller om nya profiler skapas, tar det upp till 24 timmar för AI Assistant att efterleva dem. Under dessa 24 timmar har användare med nyligen begränsad åtkomst fortfarande åtkomst till dessa fält och objekt.*
+&ast; *Det innebär att om nya etiketter läggs till i fält och objekt eller om nya profiler skapas, tar det upp till 24 timmar för AI Assistant att efterleva dem. Under dessa 24 timmar har användare med nyligen begränsad åtkomst fortfarande åtkomst till dessa fält och objekt.*
 
