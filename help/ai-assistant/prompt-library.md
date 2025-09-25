@@ -1,7 +1,7 @@
 ---
 title: AI Assistant Prompt Library
 description: Lär dig mer om de olika typer av uppmaningar och uppmaningsmönster som du kan använda när du frågar i AI Assistant.
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%

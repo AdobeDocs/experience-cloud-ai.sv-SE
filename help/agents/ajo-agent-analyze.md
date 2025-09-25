@@ -4,7 +4,7 @@ description: Omfattande guide till Journey Agent Analyze-kunskaper som gör det 
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: cf29a28477881b400b32b4623ccff2e626010e10
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 0%
@@ -23,9 +23,12 @@ Med Journey Agent kan Journey Optimizer-användare analysera och optimera resor 
 >Journey Agent är tillgängligt för alla kunder som har tillgång till AI Assistant. Du behöver dock följande behörigheter för att kunna använda Journey Agent-funktionerna fullt ut.
 >
 >**Visa resor**: Med den här behörigheten kan du använda Journey Agent för att visa insikter om resan direkt i AI Assistant.
->&#x200B;>**Hantera resor**: Med behörigheten Till kan du använda Journey Agent för att skapa nya resor direkt i AI Assistant.
->&#x200B;>**Visa segment**: Med den här behörigheten kan du använda Journey Agent för att visa insikter om målgrupper direkt i AI Assistant.
->&#x200B;>**Hantera segment**: Med behörigheten Till kan du använda Journey Agent för att skapa nya målgrupper direkt i AI Assistant.
+>
+>**Hantera resor**: Med behörigheten Till kan du använda Journey Agent för att skapa nya resor direkt i AI Assistant.
+>
+>**Visa segment**: Med den här behörigheten kan du använda Journey Agent för att visa insikter om målgrupperna direkt i AI Assistant.
+>
+>**Hantera segment**: Med behörigheten kan du använda Journey Agent för att skapa nya målgrupper direkt i AI Assistant.
 
 ![Exempel för AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -140,7 +143,6 @@ Använd dessa uppmaningar för att analysera potentiella konflikter mellan resor
 - &quot;Analysera konfliktrisken för resan [Resensnamn].&quot;
 - &quot;Ange konfliktdiagnostik för [Resensnamn].&quot;
 
-
 ## Bästa praxis
 
 ### Fråga efter bästa praxis
@@ -150,7 +152,6 @@ Så här maximerar du effektiviteten i Journey Agent Analyze:
 1. **Var specifik**: Använd tydliga och koncisa uppmaningar för att få riktade insikter. I stället för att fråga&quot;Vad är mina resor?&quot; anger du&quot;Lista alla resor som skapades den senaste månaden&quot;.
 1. **Kombinera insikter**: Integrera insikter från Audience Agent och Data Insights Agent för en helhetsbild av kundresan.
 1. **Interaktiv förfining**: Använd bortfalls- och överlappningsanalys för att iterativt förfina reseutformning och planering.
-
 
 ### Konfigurera bästa praxis
 

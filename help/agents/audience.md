@@ -1,9 +1,9 @@
 ---
 title: Audience Agent
 description: Lär dig hur du använder Audience Agent för att skapa målgrupper, visa förändringar av målgrupper, identifiera dubblerade målgrupper och visa målgruppsinsikter.
-source-git-commit: d91aac948a6fef36949218004dc0481dc8f5cf7f
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,8 @@ ht-degree: 0%
 >Audience Agent är tillgängligt för alla kunder som har tillgång till AI Assistant. Du behöver dock följande behörigheter för att kunna använda Audience Agent-funktionerna fullt ut.
 >
 >**Visa segment**: Med den här behörigheten kan du använda Audience Agent för att visa insikter om målgrupperna direkt i AI Assistant.
->&#x200B;>**Hantera segment**: Med behörigheten Till kan du använda Audience Agent för att skapa nya målgrupper direkt i AI Assistant.
+>
+>**Hantera segment**: Med behörigheten kan du använda Audience Agent för att skapa nya målgrupper direkt i AI Assistant.
 
 Med Audience Agent kan ni visa insikter om målgrupper, inklusive att identifiera betydande förändringar i målgruppsstorlek, identifiera dubblerade målgrupper, utforska era målgruppslager och hämta era målgruppers storlek.
 
@@ -25,27 +26,39 @@ Med Audience Agent kan ni visa insikter om målgrupper, inklusive att identifier
 Audience Agent i AI Assistant stöder följande användningsområden:
 
 - Hitta målgruppens storlek och upptäcka betydande förändringar i målgruppens storlek
+
    - På så sätt kan ni hitta målgrupper som plötsligt har växt eller krympt, så att ni bättre kan analysera potentiella marknadsförändringar
+
 - Identifiera duplicerade målgrupper
+
    - På så sätt kan ni minska redundansen hos era målgrupper
+
 - Hitta målgrupper baserat på fullständiga eller partiella attribut
+
    - På så sätt kan ni enklare navigera i ert målgruppslager
+
 - Upptäck XDM-fält som du kan använda för att definiera en målgrupp
+
    - Med den här kompetensen kan ni enklare identifiera rätt fält att använda i er målgrupp baserat på sammanhang och relevans
 
 Audience Agent stöder för närvarande inte **för** följande funktioner:
 
 - Kunskapsbaserad målgruppsproduktion
+
    - Kunskapsbaserade målgrupper skapar en målgrupp baserat på angivna attribut och händelser
    - Dessutom kan ni uppskatta målgruppens potentiella storlek innan ni skapar målgrupper. På så sätt kan ni snabbt iterera på den mest effektiva målgruppen innan den är redo att aktiveras
    - Stöd för den här funktionen kommer snart
+
 - Målbaserad målgruppsundersökning
+
    - Målbaserad målgruppsundersökning gör att ni kan identifiera relevanta datauppsättningar och profiler som anpassats till ett affärsmål genom att tillämpa maskininlärningsmodeller som benägenhet att köpa eller konvertera.
 
 När du använder Audience Agent bör du dessutom tänka på följande begränsningar:
 
 - Audience Agent behöver minst 24 timmar för att bearbeta dina data
+
    - Du **kan till exempel inte** ha en fråga som söker efter data inom de senaste 24 timmarna. Du måste titta inom de senaste 48 timmarna, åtminstone.
+
 - Audience Agent stöder bara **personer**-baserade målgrupper som utvärderas med gruppsegmentering
 
 ## Exempeluppmaningar

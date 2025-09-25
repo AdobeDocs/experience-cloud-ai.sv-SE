@@ -1,7 +1,7 @@
 ---
 title: Användargränssnittshandbok för AI Assistant
 description: Lär dig hur du kommer åt och använder AI Assistant i användargränssnittet.
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '1767'
 ht-degree: 0%
@@ -57,12 +57,12 @@ Gränssnittet för AI-assistenten innehåller flera viktiga element som hjälper
 I spårvyn får du snabb åtkomst till chatt, sökningar, uppdateringar, konversationer och gränssnittskontroller via en kompakt panel.
 
 1. **[!UICONTROL Chat]**: Välj **[!UICONTROL Chat]** i rubriken om du vill återgå till konversationen om du skulle lämna den för att komma åt olika element i gränssnittet.
-2. **[!UICONTROL Discovery]**: Välj **[!UICONTROL Discovery]** om du vill visa en lista över AI Assistant-uppmaningar ordnade efter kategori. Du kan använda dessa förkonfigurerade uppmaningar för att fylla i din chatt. Dessutom kan du ändra de föreslagna anvisningarna så att de passar ditt eget användningssätt.
-3. **[!UICONTROL What's New]**: Välj **[!UICONTROL What's New]** om du vill visa en lista över de senaste uppdateringarna som är tillgängliga för AI Assistant.
-4. **[!UICONTROL Conversations]**: Välj ikonen **[!UICONTROL Conversations]** om du vill starta en ny konversation och komma åt de senaste konversationerna från din historik. Mer information finns i avsnittet om [konversationer](#conversations).
-5. **Helskärmsläge**: Välj ikonen **[!UICONTROL Full screen view]** om du vill ändra AI Assistant-gränssnittet från den högra listen till helskärmsläge.
-6. **Komplettera data och objekt automatiskt**: Markera plusikonen om du vill använda data- och objektförslag och fylla i automatiskt. När det här alternativet är markerat kan du använda ett popup-fönster för att välja föreslagna enheter. Mer information finns i avsnittet om [data och objekt som slutförs automatiskt](#autocomplete).
-7. **Kontextinställning**: Välj kontextinställningsikonen för att konfigurera informationskällor för AI-assistenten. Du kan använda det här verktyget för att konfigurera programmet, sandlådan och datavyn som AI Assistant refererar till för att svara på din fråga. Mer information finns i avsnittet om [kontextinställning](#context-setting).
+1. **[!UICONTROL Discovery]**: Välj **[!UICONTROL Discovery]** om du vill visa en lista över AI Assistant-uppmaningar ordnade efter kategori. Du kan använda dessa förkonfigurerade uppmaningar för att fylla i din chatt. Dessutom kan du ändra de föreslagna anvisningarna så att de passar ditt eget användningssätt.
+1. **[!UICONTROL What's New]**: Välj **[!UICONTROL What's New]** om du vill visa en lista över de senaste uppdateringarna som är tillgängliga för AI Assistant.
+1. **[!UICONTROL Conversations]**: Välj ikonen **[!UICONTROL Conversations]** om du vill starta en ny konversation och komma åt de senaste konversationerna från din historik. Mer information finns i avsnittet om [konversationer](#conversations).
+1. **Helskärmsläge**: Välj ikonen **[!UICONTROL Full screen view]** om du vill ändra AI Assistant-gränssnittet från den högra listen till helskärmsläge.
+1. **Komplettera data och objekt automatiskt**: Markera plusikonen om du vill använda data- och objektförslag och fylla i automatiskt. När det här alternativet är markerat kan du använda ett popup-fönster för att välja föreslagna enheter. Mer information finns i avsnittet om [data och objekt som slutförs automatiskt](#autocomplete).
+1. **Kontextinställning**: Välj kontextinställningsikonen för att konfigurera informationskällor för AI-assistenten. Du kan använda det här verktyget för att konfigurera programmet, sandlådan och datavyn som AI Assistant refererar till för att svara på din fråga. Mer information finns i avsnittet om [kontextinställning](#context-setting).
 
 ![AI-assistenten i skenvy](./images/ai-assistant/rail-mode.png)
 
