@@ -1,7 +1,7 @@
 ---
 title: AI Assistant Prompt Library
 description: Lär dig mer om de olika typer av uppmaningar och uppmaningsmönster som du kan använda när du frågar i AI Assistant.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -133,3 +133,4 @@ Produktsupportagenten hjälper dig att felsöka problem, skapa supportärenden o
 
 - &quot;Vad är det senaste i mitt ärende E-12345?&quot;
 - &quot;Vad är uppdateringen av biljett E-67890?&quot;
+

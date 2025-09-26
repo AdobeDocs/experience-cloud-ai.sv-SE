@@ -1,7 +1,7 @@
 ---
 title: Audience Agent
 description: Lär dig hur du använder Audience Agent för att skapa målgrupper, visa förändringar av målgrupper, identifiera dubblerade målgrupper och visa målgruppsinsikter.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -164,3 +164,4 @@ Vilken är min snabbast växande publik?
 ## Nästa steg
 
 När du har läst den här guiden bör du få en bättre förståelse för Audience Agent och vilka funktioner den stöder. Mer information om agenter i Adobe Experience Platform finns i [Agent Orchestrator-översikten](./agent-orchestrator.md).
+

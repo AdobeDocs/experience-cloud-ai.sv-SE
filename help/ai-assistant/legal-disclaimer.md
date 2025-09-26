@@ -1,7 +1,7 @@
 ---
 title: Juridisk ansvarsfriskrivning - personuppgifter, språkstöd och verifieringssvar
 description: Läs om ansvarsfriskrivningar för personuppgifter, språkstöd och verifiering av svar när du använder AI Assistant.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -25,3 +25,4 @@ AI Assistant stöds för närvarande endast på engelska. Indata som inte är en
 ## Verifierar svar {#verifying-responses}
 
 Det är viktigt att du kontrollerar dina svar, eftersom språkmodeller kan göra misstag. Verifiera alltid källorna för att säkerställa att SQL-logiken är korrekt och att rätt dokumentation refererades till för ditt användningsfall. Granska de resonemang och förklaringar som AI Assistant ger för att förstå hur det kom fram till sitt svar. Om något inte ser bra ut skickar du feedback.
+

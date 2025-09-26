@@ -4,7 +4,7 @@ description: Omfattande guide till Journey Agent Analyze-kunskaper som gör det 
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 0%
@@ -158,3 +158,4 @@ Så här maximerar du effektiviteten i Journey Agent Analyze:
 - **Definiera tydliga mål**: Innan du analyserar resor måste du fastställa tydliga mål (t.ex. förbättra kundlojalitet, öka konverteringarna).
 - **Övervaka regelbundet**: Schemalägg regelbundna granskningar av reseprestanda för att identifiera trender och avvikelser.
 - **Optimera segmentering**: Kontrollera att målgruppssegmenteringen är balanserad för att undvika trötthet och maximera engagemanget.
+

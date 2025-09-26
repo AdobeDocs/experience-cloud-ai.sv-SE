@@ -1,7 +1,7 @@
 ---
 title: Användargränssnittshandbok för AI Assistant
 description: Lär dig hur du kommer åt och använder AI Assistant i användargränssnittet.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '1767'
 ht-degree: 0%
