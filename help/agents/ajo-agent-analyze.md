@@ -4,9 +4,9 @@ description: Omfattande guide till Journey Agent Analyze-kunskaper som gör det 
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: 26b579471b591d3c436f4275d07303d297e0fbf8
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,19 @@ ht-degree: 0%
 
 Med Journey Agent kan Journey Optimizer-användare analysera och optimera resor med ett naturligt språkgränssnitt. Med Journey Agent kan man snabbt hitta och lösa scheman- och/eller målgruppskonflikter, upptäcka när man överger en resa och ge insikter eller rekommendationer. Det ger praktikanterna möjlighet att fatta datadrivna beslut, förbättra kundengagemanget och effektivisera resesamordning.
 
+Läs mer och upptäck agenten i den här [översikten](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+
 >[!AVAILABILITY]
 >
->Journey Agent är tillgängligt för alla kunder som har tillgång till AI Assistant. Du behöver dock följande behörigheter för att kunna använda Journey Agent-funktionerna fullt ut.
+>Journey Agent är tillgängligt för alla kunder som har tillgång till AI Assistant. Du måste dock ha följande behörigheter för att kunna använda Journey Agent funktioner fullt ut:
 >
->**Visa resor**: Med den här behörigheten kan du använda Journey Agent för att visa insikter om resan direkt i AI Assistant.
+>**Visa resor**: Med den här behörigheten kan du visa insikter om resan direkt i AI Assistant.
 >
->**Hantera resor**: Med behörigheten Till kan du använda Journey Agent för att skapa nya resor direkt i AI Assistant.
+>**Hantera resor**: Med behörighet kan du skapa nya resor direkt i AI Assistant.
 >
->**Visa segment**: Med den här behörigheten kan du använda Journey Agent för att visa insikter om målgrupperna direkt i AI Assistant.
+>**Visa segment**: Med den här behörigheten kan du visa insikter om målgrupperna direkt i AI Assistant.
 >
->**Hantera segment**: Med behörigheten kan du använda Journey Agent för att skapa nya målgrupper direkt i AI Assistant.
+>**Hantera segment**: Med behörighet kan du skapa nya målgrupper direkt i AI Assistant.
 
 ![Exempel för AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
