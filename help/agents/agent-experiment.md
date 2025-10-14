@@ -1,11 +1,9 @@
 ---
 title: Experimentationsagent
 description: Lär dig hur du använder Experimentation Agent
-hide: true
-hidefromtoc: true
-source-git-commit: 352ba791195eca7f68e6d317e0f2449d6ededeb2
+source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -14,11 +12,11 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Experimentationsagenten är tillgänglig för alla kunder som har tillgång till AI Assistant. Du måste dock ha följande behörigheter för att kunna använda funktionerna i Experimentationsagenten fullt ut.
+>Experimentationsagenten är tillgänglig för alla kunder som har tillgång till AI Assistant. Du behöver dock följande behörigheter för att kunna använda Experimentationsagentfunktionerna fullt ut.
 >
 >**Visa vyexperiment**: Med den här behörigheten kan du använda Experimentationsagenten för att visa insikter i experimentet direkt i AI Assistant.
 >
->**Hantera experimentmetadata**: Med behörigheten kan du använda experimenteringsagenten för att skapa nya experiment direkt i AI-assistenten.
+>**Hantera experimentmetadata**: Med den här behörigheten kan du använda experimenteringsagenten för att skapa nya experiment direkt i AI-assistenten.
 
 ## Översikt
 
