@@ -12,7 +12,7 @@ ht-degree: 0%
 
 Läs den här guiden för olika typer av frågor som du kan använda i AI Assistant.
 
-## Audience Agent
+## Audience-agent
 
 I följande avsnitt visas exempeluppmaningar som du kan använda med Audience Agent för att utforska och analysera dina målgrupper. Det handlar om olika sätt att undersöka målgruppsegenskaper, upptäcka dubbletter av målgrupper, hämta målgruppsstorlekar och övervaka betydande förändringar i målgruppens storlek över tid. Använd dessa tips för att få djupare insikter och upprätthålla kvaliteten på era målgruppsdata.
 

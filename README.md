@@ -2,16 +2,16 @@
 source-git-commit: e09480184d8d0507ec730f1e3a87c665124c173a
 workflow-type: tm+mt
 source-wordcount: '483'
-ht-degree: 0%
+ht-degree: 36%
 
 ---
-# Contribute-artikel
+# Artikel om att bidra
 
-Vi välkomnar bidrag från både vår community och från Adobe-anställda utanför dokumentationsteamen.
+Vi välkomnar bidrag från både vårt community och från anställda hos Adobe utanför dokumentationsteamen.
 
-## Adobe Open Source - uppförandekod
+## Adobes uppförandekod gällande öppen källkod
 
-Det här projektet har antagit [Adobe Open Source uppförandekod](code-of-conduct.md) eller [.NET Foundation uppförandekod](https://dotnetfoundation.org/code-of-conduct). Mer information finns i artikeln [Contributing](contributing.md).
+Detta projekt har antagit [Adobe Open Source Code of Conduct](code-of-conduct.md) eller [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). Mer information finns i artikeln [Contributing](contributing.md).
 
 ## Så här bidrar du till Adobe-innehåll
 
@@ -29,9 +29,9 @@ Om du bidrar med en mindre uppdatering:
 1. I&quot;Var det här innehållet till hjälp?&quot; bannern som visas längst ned i webbläsarfönstret klickar på **Detaljerade alternativ för feedback**.
 1. Klicka på **Föreslå en redigering** och skicka en pull-begäran (PR) med ändringarna i GitHub-gränssnittet.
 
-   Mer information finns i den allmänna [Adobe Docs Contributor-guiden](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=sv).
+   Mer information finns i den allmänna [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=sv).
 
-Mindre korrigeringar och förtydliganden som du lämnar in för dokumentation och kodexempel i den här rapporten omfattas av Adobe användarvillkor.
+Mindre korrigeringar och förtydliganden som du lämnar in för dokumentation och kodexempel i den här databasen omfattas av Adobes användarvillkor.
 
 ### Större förändringar eller nya ämnen från communityn
 
@@ -39,11 +39,11 @@ Om du är en del av Adobe-communityn och vill skapa ett nytt ämne eller skicka 
 
 **Obs!** Om du skickar en pull-begäran med betydande ändringar av dokumentation och kodexempel visas ett meddelande i pull-begäran där du ombeds skicka ett licensavtal för onlinesändning (CLA). Du måste fylla i onlineformuläret innan vi kan granska din begäran.
 
-### verktyg
+### Verktyg
 
-Deltagare i communityn kan använda GitHub-gränssnittet för grundläggande redigering eller förgrena rapporten för att göra större insatser.
+Deltagare i vårt community kan använda GitHub-gränssnittet för grundläggande redigeringar eller förgrena databasen för att göra större bidrag.
 
-Mer information finns i [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=sv).
+Mer information finns i [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=sv).
 
 ## Interna medarbetare
 
@@ -53,12 +53,12 @@ Om du är teknikskribent, programchef eller utvecklare för en Adobe Experience 
 
 Alla artiklar i den här databasen använder GitHub-smaksatt Markdown. Om du inte känner till Markdown kan du läsa:
 
-* [Grunderna för markeringar](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Utskrivbart kalkylblad för markering](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Grunderna i markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Utskrivbar lathund för markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Etiketter
 
-I den offentliga databasen tilldelas automatiska etiketter för att hämta begäranden som hjälper oss att hantera pull-arbetsflödet och som hjälper dig att få reda på vad som pågår med din pull-begäran:
+I den offentliga databasen tilldelas pull-begäranden automatiska etiketter, vilket hjälper oss att hantera arbetsflödet med pull-begäranden och hjälper dig att ta reda på vad som pågår med din pull-begäran:
 
-* **Ändringen har skickats till författaren**: Författaren har underrättats om den väntande pull-begäran.
-* **ready-to-merge**: Ready for review by our pull request review team.
+* **Ändringen har skickats till författaren**: författaren har underrättats om den väntande pull-begäran.
+* **redo för sammanslagning**: redo för granskning av vårt team som granskar pull-begäranden.

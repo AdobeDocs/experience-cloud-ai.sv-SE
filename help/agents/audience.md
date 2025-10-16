@@ -1,5 +1,5 @@
 ---
-title: Audience Agent
+title: Audience-agent
 description: Lär dig hur du använder Audience Agent för att skapa målgrupper, visa förändringar av målgrupper, identifiera dubblerade målgrupper och visa målgruppsinsikter.
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
@@ -9,7 +9,7 @@ ht-degree: 0%
 ---
 
 
-# Audience Agent
+# Audience-agent
 
 >[!AVAILABILITY]
 >

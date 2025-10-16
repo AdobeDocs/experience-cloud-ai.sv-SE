@@ -4,7 +4,7 @@ description: Läs om hur Experience Cloud-program använder generativ AI (GenAI)
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -14,7 +14,7 @@ Välkommen till den omfattande guiden för AI-funktioner i olika Adobe Experienc
 
 ## Vad ingår i den här guiden
 
-### AI Assistant
+### AI-assistenten
 
 [AI Assistant](./ai-assistant/ai-assistant-ui.md) är ett intelligent, generativt AI-verktyg för konversationer som ökar produktiviteten och omdefinierar arbetet i Adobe Experience Platform-baserade program. Användarna kan få produktkunskaper, felsöka problem och hitta driftsinsikter via naturliga språktips. Du kan också använda AI Assistant för att komma åt Adobe Experience Platform Agents och andra AI-funktioner.
 
@@ -28,7 +28,7 @@ Välkommen till den omfattande guiden för AI-funktioner i olika Adobe Experienc
 
 ### Agent Orchestrator
 
-[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md) är det nya officiella lagret i Adobe Experience Platform. Experience Platform Agent Orchestrator är utformat för att utnyttja plattformens omfattande data och kundupplevelser och driver intelligens och resonemang bakom specialbyggda Adobe Experience Platform-agenter som gör det möjligt för dem att fatta komplexa beslut och lösa problem snabbt och i stor skala - allt med mänsklig tillsyn. När du ställer frågor eller begär hjälp via ett naturligt språk i ett konversationsgränssnitt som AI Assistant, uppmanar Agent Orchestrator automatiskt våra specialistrepresentanter att ge dig rätt svar. Agent Orchestrator kommer ihåg er konversationshistorik, vilket gör att ni kan bygga vidare på tidigare frågor på ett naturligt sätt utan att behöva upprepa sammanhanget, och kombinerar insikter från olika agenter för att ge er tydliga, enhetliga svar.
+[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md) är det nya officiella lagret i Adobe Experience Platform. Experience Platform Agent Orchestrator är utformat för att utnyttja plattformens omfattande data och kundupplevelser. Den driver intelligens och resonemang bakom specialbyggda Adobe Experience Platform-agenter, vilket möjliggör för dem att fatta komplexa beslut och lösa problem snabbt och i stor skala – allt med mänsklig tillsyn. När du ställer frågor eller begär hjälp via ett naturligt språk i ett konversationsgränssnitt som AI-assistenten, uppmanar Agent Orchestrator automatiskt våra specialistrepresentanter att ge dig rätt svar. Agent Orchestrator kommer ihåg er konversationshistorik, vilket gör att ni kan bygga vidare på tidigare frågor på ett naturligt sätt utan att behöva upprepa sammanhanget, och kombinerar insikter från olika agenter för att ge er tydliga, enhetliga svar.
 
 **Kärnkomponenter:**
 
@@ -38,7 +38,7 @@ Välkommen till den omfattande guiden för AI-funktioner i olika Adobe Experienc
 
 ### Specialiserade agenter
 
-#### Audience Agent
+#### Audience-agent
 
 Ger insikter om målgrupper, bland annat:
 
@@ -91,7 +91,7 @@ AI Assistant har tagits fram med sekretess, säkerhet och styrning i framkanten:
 - 30-dagars bevarandeprincip för interaktionsloggar
 - Sandlådespecifik dataisolering
 
-## God praxis
+## Bästa praxis
 
 - **Var specifik** i dina uppmaningar för att få riktade insikter
 - **Verifiera svar** med källcitat och förklaringar

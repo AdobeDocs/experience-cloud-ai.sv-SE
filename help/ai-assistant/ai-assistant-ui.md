@@ -8,7 +8,7 @@ ht-degree: 0%
 
 ---
 
-# AI Assistant
+# AI-assistenten
 
 AI Assistant är ett intelligent, generativt AI-verktyg för konversationer som ökar produktiviteten och omdefinierar arbetet i Adobe Experience Platform-baserade program. Du kan använda AI Assistant för att komma åt Adobe Experience Platform Agents och andra AI-funktioner.
 
@@ -16,7 +16,7 @@ Läs den här guiden och lär dig hur du kan använda AI Assistant.
 
 ![AI Assistants hemgränssnitt i helskärmsläge.](./images/ai-assistant/blank-home.png)
 
-## Access AI Assistant
+## Få tillgång till AI-assistenten
 
 Det finns flera sätt att få åtkomst till AI-assistenten.
 

@@ -32,7 +32,7 @@ Som en del av Experimentation Accelerator-funktionen tillhandahåller agenten:
 
 ![Exempel för experimenteringsagent](./images/experiment/experiment-agent.png)
 
-## Användningsexempel
+## Användningsfall
 
 Experimentationsagenten förbättrar varje fas i experimenteringsarbetsflödet genom att analysera resultat, tolka innehåll och föreslå nästa steg.
 

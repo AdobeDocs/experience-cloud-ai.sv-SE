@@ -18,5 +18,5 @@ ht-degree: 98%
 
 Filen metadata.md innehåller metadata på lagringsplatsnivå som skickas till TOC.md-filer för användarhandboken i lagringsplatsen. Om du vill ändra innehållet för metadata.md för en användarhandbok gör du det i en TOC.md-fil.
 
-Se [Metadata](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=sv) för en lista över giltiga värden för **lösning**, **produkt** och **typ**.
+I [Metadata](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=sv) finns en lista över giltiga värden för **lösning**, **produkt** och **typ**.
 
