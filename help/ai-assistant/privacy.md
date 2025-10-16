@@ -16,13 +16,13 @@ Läs det här dokumentet om du vill veta mer om funktioner som är inriktade på
 
 * Inga personuppgifter används av AI Assistant idag, inte ens i utbildningssyfte.
 * AI Assistant känner inte till konsumentdata.
-* Alla befintliga [åtkomstkontrollprinciper](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) respekteras av AI Assistant.
+* Alla befintliga [åtkomstkontrollprinciper](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/home) respekteras av AI Assistant.
 
    * Alla nya attributbaserade åtkomstkontrollprinciper återspeglas i AI Assistant efter högst 24 timmar&amp;stämpel;ast;
 
 * Du måste ha explicit behörighet att interagera med AI Assistant.
 
-   * Du kan ange behörigheter på olika sätt för Experience Platform och Journey Optimizer med [behörighetsgränssnittet](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse) och du kan använda [Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse) för att tilldela behörigheter för Customer Journey Analytics.
+   * Du kan ange behörigheter på olika sätt för Experience Platform och Journey Optimizer med [behörighetsgränssnittet](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/abac/permissions-ui/browse) och du kan använda [Admin Console](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/ui/browse) för att tilldela behörigheter för Customer Journey Analytics.
    * Behörigheterna är detaljerade och din sandlådeadministratör kan konfigurera vilka av dina användare som kan ställa olika frågekategorier (produktkunskapsbaserade frågor med AI Assistant eller frågor om driftsinsikter).
 
 * AI Assistant är en HIPAA-klar funktion när den används i kombination med Adobe Experience Platform Healthcare Shield.
