@@ -1,7 +1,7 @@
 ---
 title: Användargränssnittshandbok för AI Assistant
 description: Lär dig hur du kommer åt och använder AI Assistant i användargränssnittet.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
 workflow-type: tm+mt
 source-wordcount: '1767'
 ht-degree: 0%
@@ -15,6 +15,8 @@ AI Assistant är ett intelligent, generativt AI-verktyg för konversationer som 
 Läs den här guiden och lär dig hur du kan använda AI Assistant.
 
 ![AI Assistants hemgränssnitt i helskärmsläge.](./images/ai-assistant/blank-home.png)
+
+>[!SLIDE](agent-orchestrator-ui)
 
 ## Få tillgång till AI-assistenten
 

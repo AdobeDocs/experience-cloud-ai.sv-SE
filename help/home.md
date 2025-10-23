@@ -1,10 +1,10 @@
 ---
 title: AI i Experience Cloud-program
 description: Läs om hur Experience Cloud-program använder generativ AI (GenAI), AI Assistant och agentisk AI.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 14%
+source-wordcount: '802'
+ht-degree: 11%
 
 ---
 
@@ -20,11 +20,12 @@ Välkommen till den omfattande guiden för AI-funktioner i olika Adobe Experienc
 
 **Viktiga funktioner:**
 
-- **Konversationsgränssnitt**: Alternativ för helskärms- och rälsvy för olika arbetsflödesinställningar
-- **Identifieringsfrågor**: Förkonfigurerade uppmaningar ordnade efter kategori (Lär dig, Analysera, Optimera)
-- **Kontextinställning**: Konfigurera inställningar för program, sandlåda och datavy för riktade svar
-- **Datavisualisering**: Interaktiva diagram och diagram för datainsikter
-- **Svarsverifiering**: Source-citat, resonemangsförklaringar och feedbackmekanismer
+- **Konversationsgränssnitt**: Du kan välja mellan ett helskärmsgränssnitt och ett rälsvy som passar dina arbetsflödesinställningar.
+- **Identifieringsfrågor**: AI Assistant tillhandahåller förkonfigurerade frågor som är ordnade efter kategorier som Lär dig, Analysera och Optimera.
+- **Kontextinställning**: Du kan konfigurera inställningarna för programmet, sandlådan och datavyn så att du kan ta emot svar som är anpassade efter dina behov.
+- **Datavisualisering**: Verktyget innehåller interaktiva diagram och diagram som gör att du kan få insikter från dina data.
+- **Svarsverifiering**: Alla svar innehåller källcitat, förklaringar till AI-resonemang och mekanismer för att ge feedback.
+
 
 ### Agent Orchestrator
 
@@ -40,36 +41,36 @@ Välkommen till den omfattande guiden för AI-funktioner i olika Adobe Experienc
 
 #### Audience-agent
 
-Ger insikter om målgrupper, bland annat:
+Audience Agent ger insikter om målgrupper:
 
-- Identifiera stora förändringar i målgruppens storlek
-- Identifiera duplicerade målgrupper
-- Utforska målgruppslager
-- Hämtar målgruppsstorlek
+- Identifiera stora förändringar i målgruppens storlek.
+- Identifiera duplicerade målgrupper.
+- Utforska målgruppslager.
+- Hämtar publikstorlekar.
 
 #### Data Insights Agent
 
-Finns i Customer Journey Analytics:
+Finns i Customer Journey Analytics, Data Insights Agent:
 
-- Svara på frågor om dina data på ditt naturliga språk
-- Bygger relevanta visualiseringar i Analysis Workspace
-- Använder komponenter från din datavy och faktiska data
+- Svar på frågor om era data på ett naturligt språk.
+- Bygger relevanta visualiseringar i Analysis Workspace.
+- Använder komponenter från datavyn och faktiska data.
 
 #### Journey Agent
 
-Gör att Journey Optimizer-användare kan:
+Med Journey Agent kan man
 
-- Analysera och optimera resorna med det naturliga språket
-- Upptäck och lös schemaläggnings- eller målgruppskonflikter
-- Analysera prestanda och bortfallspunkter
+- Analysera och optimera resorna med det naturliga språket.
+- Upptäck och lös schemaläggnings- eller målgruppskonflikter.
+- Analysera prestanda och bortfallspunkter.
 
 #### Produktsupportagent
 
-Självbetjänad felsökning och felsökning:
+Använd Product Support Agent för felsökning och felsökning:
 
-- Felsöka Adobe Experience Platform funktioner utan att behöva lämna arbetsflöden
-- Skapa supportärenden i kontext från AI Assistant-interaktioner
-- Kontrollera biljettuppdateringar via AI Assistant
+- Felsök Adobe Experience Platform funktioner utan att behöva lämna arbetsflödena.
+- Skapa supportärenden med hjälp av AI Assistant-interaktioner.
+- Kontrollera biljettuppdateringar via AI Assistant.
 
 ## Komma igång
 
@@ -77,33 +78,30 @@ Självbetjänad felsökning och felsökning:
 
 Om du vill använda AI Assistant och Experience Platform Agents måste din Adobe-administratör ställa in rätt behörigheter:
 
-- **Real-Time CDP och Adobe Journey Optimizer**: Kräver behörigheten Aktivera AI-assistenten och behörigheten Visa driftsinsikter för operativa frågor
-- **Customer Journey Analytics**: Åtkomst via Customer Journey Analytics Access Control för frågor om produktkunskap och datainsikter
-- **Adobe Experience Manager**: Åtkomst via Adobe Admin Console
+- Om du vill använda AI Assistant i Real-Time CDP och Adobe Journey Optimizer behöver du behörigheten&quot;Aktivera AI Assistant&quot; samt behörigheten&quot;Visa driftsinsikter&quot; för att få tillgång till operativa frågor.
+- Åtkomsten till AI Assistant i Customer Journey Analytics hanteras via Customer Journey Analytics Access Control, som gör att du kan ställa frågor om både produktkunskap och datainsikter.
+- För Adobe Experience Manager kan du komma åt AI Assistant via behörigheter som anges i Adobe Admin Console.
 
 ### Integritet och säkerhet
 
 AI Assistant har tagits fram med sekretess, säkerhet och styrning i framkanten:
 
-- Inga personuppgifter används för utbildning
-- Alla befintliga åtkomstkontrollprinciper respekteras
-- HIPAA-förberedd vid användning med Adobe Experience Platform Healthcare Shield
-- 30-dagars bevarandeprincip för interaktionsloggar
-- Sandlådespecifik dataisolering
+- Inga personuppgifter används för utbildning.
+- Alla befintliga åtkomstkontrollprinciper respekteras.
+- HIPAA-förberedd när den används tillsammans med Adobe Experience Platform Healthcare Shield.
+- 30-dagars bevarandeprincip för interaktionsloggar.
+- Sandlådespecifik dataisolering.
 
 ## Bästa praxis
 
-- **Var specifik** i dina uppmaningar för att få riktade insikter
-- **Verifiera svar** med källcitat och förklaringar
-- **Använd kontextinställning** för att säkerställa relevanta datakällor
-- **Ge feedback** för att förbättra prestanda för AI Assistant
-- **Kombinera insikter** från flera agenter för omfattande analys
+Följ dessa riktlinjer för att få ut så mycket som möjligt av din AI Assistant-upplevelse:
+
+- **Var specifik** i dina uppmaningar för att få målinriktade och relevanta insikter från AI-assistenten.
+- **Verifiera svar** genom att granska källcitaten och de förklaringar som tillhandahålls av AI-assistenten.
+- **Använd kontextinställning** för att kontrollera att de mest relevanta datakällorna används för dina frågor.
+- **Ge feedback** för att förbättra AI-assistentens prestanda och exakthet över tid.
+- **Kombinera insikter** från flera agenter för att få en mer omfattande och detaljerad analys.
 
 ## Juridiska överväganden
 
-- AI Assistant stöder för närvarande endast engelska
-- Verifiera alltid svar eftersom språkmodeller kan göra misstag
-- Granska de åtgärder och förklaringar som lämnats
-- Skicka feedback vid eventuella problem eller felaktigheter
-
-Den här guiden innehåller allt du behöver för att effektivt använda AI-funktionerna i alla dina Experience Cloud-program, från grundläggande interaktioner till avancerad agentsamordning och specialiserade arbetsflöden.
+När du använder AI Assistant är det viktigt att du är medveten om viktiga juridiska och praktiska överväganden. För närvarande stöder AI Assistant endast svar på engelska. Var alltid försiktig med att verifiera informationen som tillhandahålls, eftersom språkmodeller ibland kan göra misstag. Använd de resonanssteg och förklaringar som ingår i svaren för att få en bättre förståelse för de svar ni får. Om du stöter på problem eller felaktigheter ska du skicka feedback för att hjälpa till att förbättra AI Assistant över tid.

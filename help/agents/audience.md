@@ -1,7 +1,7 @@
 ---
 title: Audience-agent
 description: Lär dig hur du använder Audience Agent för att skapa målgrupper, visa förändringar av målgrupper, identifiera dubblerade målgrupper och visa målgruppsinsikter.
-source-git-commit: 2c50a4abaf9606e3c7887073053d0cde3ec761e5
+source-git-commit: f2b5bd1a59055a8ca6785abfc2d0a336eea7fd98
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 0%
@@ -20,6 +20,8 @@ ht-degree: 0%
 >**Hantera segment**: Med behörigheten kan du använda Audience Agent för att skapa nya målgrupper direkt i AI Assistant.
 
 Med Audience Agent kan ni visa insikter om målgrupper, inklusive att identifiera betydande förändringar i målgruppsstorlek, identifiera dubblerade målgrupper, utforska era målgruppslager och hämta era målgruppers storlek.
+
+>[!SLIDE](audience-agent-overview)
 
 ## Användningsexempel som stöds
 
