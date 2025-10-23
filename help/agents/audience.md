@@ -1,9 +1,9 @@
 ---
 title: Audience-agent
 description: Lär dig hur du använder Audience Agent för att skapa målgrupper, visa förändringar av målgrupper, identifiera dubblerade målgrupper och visa målgruppsinsikter.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: 2c50a4abaf9606e3c7887073053d0cde3ec761e5
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -25,47 +25,47 @@ Med Audience Agent kan ni visa insikter om målgrupper, inklusive att identifier
 
 Audience Agent i AI Assistant stöder följande användningsområden:
 
-- Hitta målgruppens storlek och upptäcka betydande förändringar i målgruppens storlek
-
+- Utforska er målgrupp konversationellt
+   - Hitta målgruppsstorlekar för befintliga målgrupper
+   - Sök efter målgrupper baserat på fullständiga eller partiella attribut
+   - Identifiera duplicerade målgrupper
+   - Upptäck XDM-fält som du kan använda för att definiera en målgrupp
+- Upptäck betydande förändringar i målgruppens storlek
    - På så sätt kan ni hitta målgrupper som plötsligt har växt eller krympt, så att ni bättre kan analysera potentiella marknadsförändringar
 
-- Identifiera duplicerade målgrupper
-
-   - På så sätt kan ni minska redundansen hos era målgrupper
-
-- Hitta målgrupper baserat på fullständiga eller partiella attribut
-
-   - På så sätt kan ni enklare navigera i ert målgruppslager
-
-- Upptäck XDM-fält som du kan använda för att definiera en målgrupp
-
-   - Med den här kompetensen kan ni enklare identifiera rätt fält att använda i er målgrupp baserat på sammanhang och relevans
+<!-- - Find your audience size and detect significant changes in audience size
+  - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
+- Detect duplicate audiences
+  - This lets you reduce redundancies with your created audiences
+- Find audiences based on full or partial attributes named
+  - This lets you more easily navigate through your audience inventory
+- Discover XDM fields you can use to define an audience
+  - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
 
 Audience Agent stöder för närvarande inte **för** följande funktioner:
 
 - Kunskapsbaserad målgruppsproduktion
-
    - Kunskapsbaserade målgrupper skapar en målgrupp baserat på angivna attribut och händelser
    - Dessutom kan ni uppskatta målgruppens potentiella storlek innan ni skapar målgrupper. På så sätt kan ni snabbt iterera på den mest effektiva målgruppen innan den är redo att aktiveras
    - Stöd för den här funktionen kommer snart
-
 - Målbaserad målgruppsundersökning
-
    - Målbaserad målgruppsundersökning gör att ni kan identifiera relevanta datauppsättningar och profiler som anpassats till ett affärsmål genom att tillämpa maskininlärningsmodeller som benägenhet att köpa eller konvertera.
 
 När du använder Audience Agent bör du dessutom tänka på följande begränsningar:
 
 - Audience Agent behöver minst 24 timmar för att bearbeta dina data
-
    - Du **kan till exempel inte** ha en fråga som söker efter data inom de senaste 24 timmarna. Du måste titta inom de senaste 48 timmarna, åtminstone.
-
-- Audience Agent stöder bara **personer**-baserade målgrupper som utvärderas med gruppsegmentering
+- Audience Agent stöder endast följande målgruppstyper:
+   - **Personbaserade** målgrupper som utvärderas med gruppsegmentering
+   - **Kontobaserade** målgrupper för följande användningsområden:
+      - Utforska målgrupper i konversationen
+      - Duplicera målgruppsidentifiering
 
 ## Exempeluppmaningar
 
 I följande exempel visas exempelfrågor och svar för Audience Agent.
 
-### Utforska konversationsmålgrupper
+### Utforska målgrupper i konversationen
 
 Visa fält för välbärgade köpare.
 
@@ -88,6 +88,14 @@ Lista alla målgrupper som har mappats till nya mål de senaste tre månaderna.
 +++ Svar
 
 ![AI-assistenten visar en målgrupp som har mappats till ett nytt mål under de senaste tre månaderna.](./images/audience/new-destination.png)
+
++++
+
+Vilken kontopublik har den största målgruppen och hur stor är den?
+
++++ Svar
+
+![AI-assistenten visar en tabell med de största målgrupperna.](./images/audience/largest-account-audience.png)
 
 +++
 
@@ -114,6 +122,14 @@ Visa alla målgrupper som har samma regler men olika aktiveringsmål.
 +++ Svar
 
 ![AI-assistenten visar att det inte finns några segmentdefinitioner som är dubblerade till olika mål.](./images/audience/same-rules-different-destinations.png)
+
++++
+
+Identifiera målgrupper som har samma regler men olika namn.
+
++++ Svar
+
+![AI-assistenten visar en tabell som innehåller namn och ID:n för kontomålgrupper som delar samma målgruppsregler.](./images/audience/duplicate-account-audience.png)
 
 +++
 
