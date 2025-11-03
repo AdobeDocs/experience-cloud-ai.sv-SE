@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Data Insights Agent är tillgängligt för berättigade kunder under en begränsad tid. Åtkomsten till Data Insights Agent upphör den 28 februari 2026. Om du vill fortsätta använda Data Insights Agent utan avbrott kontaktar du Adobe kontorepresentant för att få veta mer om Data Insights Agent licenser.
 
-Data Insights Agent, som är tillgängligt från [AI-assistenten](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) i Customer Journey Analytics, är en generativ AI-konversationsagent som snabbt och effektivt besvarar frågor om dina data. Det bygger upp relevanta visualiseringar i Analysis Workspace med komponenter från datavyn och med era faktiska data.
+Data Insights Agent, som är tillgängligt från [AI-assistenten](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) i Customer Journey Analytics, är en generativ AI-konversationsagent som snabbt och effektivt besvarar frågor om dina data. Det bygger upp relevanta visualiseringar i Analysis Workspace med komponenter från datavyn och med era faktiska data.
 
 Genom att använda Data Insights Agent för att besvara datacentrerade frågor i Analysis Workspace kan du spara oräkneliga timmar som du annars skulle behöva lägga på att manuellt skapa visualiseringar i Analysis Workspace och bekanta dig med komponenterna i datavyn.
 
@@ -52,7 +52,7 @@ Följande parametrar styr åtkomsten till Data Insights Agent i Customer Journey
 
 * **Behörigheter**: Nödvändiga behörigheter måste beviljas i [!UICONTROL Adobe Admin Console] innan användare kan komma åt Data Insights Agent.
 
-  Om du vill bevilja behörigheter måste en [produktprofiladministratör](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) utföra följande steg i [!UICONTROL Admin Console]:
+  Om du vill bevilja behörigheter måste en [produktprofiladministratör](https://helpx.adobe.com/se/enterprise/using/manage-product-profiles.html) utföra följande steg i [!UICONTROL Admin Console]:
    1. I **[!UICONTROL Admin Console]** väljer du fliken **[!UICONTROL Products]** för att visa sidan **[!UICONTROL All products and services]**.
    1. Välj **[!UICONTROL Customer Journey Analytics]**.
    1. På fliken **[!UICONTROL Product Profiles]** väljer du titeln för den produktprofil som du vill ge åtkomst till [!UICONTROL AI Assistant: Product Knowledge].
@@ -70,7 +70,7 @@ Följande parametrar styr åtkomsten till Data Insights Agent i Customer Journey
 
    1. Välj **[!UICONTROL Save]** om du vill spara behörigheterna.
 
-  Mer information om åtkomstkontroll finns i [Åtkomstkontroll](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
+  Mer information om åtkomstkontroll finns i [Åtkomstkontroll](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/technotes/access-control#access-control).
 
 * **Datavyåtkomst**: Datavyer måste aktiveras för Data Insights Agent.
 
@@ -261,8 +261,8 @@ Nedan följer god praxis för din Customer Journey Analytics-konfiguration (data
 
 >[!MORELIKETHIS]
 >
->[Komponentinställningar](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[Dataordlista &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[Godkänn beräknat mått &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[Dela segment &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[Komponentinställningar](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[Dataordlista &#x200B;](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Godkänn beräknat mått &#x200B;](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[Dela segment &#x200B;](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-components/segments/seg-share)
 >
