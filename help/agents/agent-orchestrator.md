@@ -26,7 +26,7 @@ Agent Orchestrator består av flera nyckelkomponenter, bland annat AI Assistant-
 
 ### AI Assistant - konversationsgränssnitt {#ai-assistant}
 
-AI Assistant är en intelligent, naturlig konverteringsupplevelse som gör det möjligt för användare som använder aktiverade Experience Cloud-program att utnyttja GenAI- och Agentic AI-funktioner, vars bredd är beroende av vilka Experience Cloud-program som licensieras av kunderna. Läs [guiden om åtkomst till AI Assistant](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access) om du vill låsa upp åtkomst.
+AI Assistant är en intelligent, naturlig konverteringsupplevelse som gör det möjligt för användare som använder aktiverade Experience Cloud-program att utnyttja GenAI- och Agentic AI-funktioner, vars bredd är beroende av vilka Experience Cloud-program som licensieras av kunderna. Läs [guiden om åtkomst till AI Assistant](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/access) om du vill låsa upp åtkomst.
 
 Mer information finns i [Gränssnittsguiden för AI-assistenten](../ai-assistant/ai-assistant-ui.md).
 
@@ -41,12 +41,12 @@ Adobe Experience Platform Agents är en specialbyggd gruppering av AI-agenter so
 | Agent | Information | Program som stöds |
 | --- | --- | --- |
 | [Audience Agent](audience.md) | Med Audience Agent kan ni visa insikter om målgrupper, inklusive att identifiera betydande förändringar av målgruppsstorlek, identifiera duplicerade målgrupper, utforska ert målgruppslager och ta fram era målgruppers storlek. | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> |
-| [Agenten för datainsikter](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Data Insights Agent, som är tillgängligt från AI Assistant i Customer Journey Analytics, är en generativ AI-konversationsagent som snabbt och effektivt besvarar frågor om dina data. Det bygger upp relevanta visualiseringar i Analysis Workspace med komponenter från datavyn och med era faktiska data. | Customer Journey Analytics |
+| [Agenten för datainsikter](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Data Insights Agent, som är tillgängligt från AI Assistant i Customer Journey Analytics, är en generativ AI-konversationsagent som snabbt och effektivt besvarar frågor om dina data. Det bygger upp relevanta visualiseringar i Analysis Workspace med komponenter från datavyn och med era faktiska data. | Customer Journey Analytics |
 | [Experimenteringsagent](./agent-experiment.md) | Experimentationsagenten hjälper team att lära sig snabbare genom att analysera experimentresultat, förutse påverkan och föreslå nya experiment. Det centraliserar gamla och aktiva experiment så att ni kan bygga vidare på det ni redan lärt er, hitta luckor och prioritera vad som ska testas härnäst. | Adobe Journey Optimizer Experimentation Accelerator |
 | [Journey Agent](./ajo-agent-analyze.md) | Med Journey Agent kan Adobe Journey Optimizer-användare skapa, analysera och optimera resor med ett naturligt språkgränssnitt. Med Journey Agent kan ni snabbt skapa resor, upptäcka och lösa schemaläggnings- eller målgruppskonflikter, analysera prestanda och bortfall samt identifiera högpresterande resor som kan återskapas för framtida kampanjer. Det hjälper er att fatta datadrivna beslut, förbättra kundengagemanget och effektivisera resesamordning. | Adobe Journey Optimizer |
 | [Produktsupportagent](product-support.md) | Product Support Agent är en självbetjäningsfunktion för felsökning och felsökning som hjälper dig att felsöka Adobe Experience Platform funktioner och program utan att behöva lämna arbetsflödena. Supportadministratörer kan skapa kundsupportbiljetter i sitt sammanhang utifrån dina AI Assistant-interaktioner och du kan kontrollera biljettuppdateringar via AI Assistant. | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
-Mer information om tillgängligheten av agenter i Experience Cloud-program finns i [AI-dokumentationen för agenter i Experience Cloud &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/features/agentic-ai).
+Mer information om tillgängligheten av agenter i Experience Cloud-program finns i [AI-dokumentationen för agenter i Experience Cloud &#x200B;](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/agentic-ai).
 
 ### Kunskapsbas {#knowledge-base}
 
@@ -60,7 +60,7 @@ För att få tillgång till konversationsgränssnittet i AI Assistant och använ
 
 * **Real-Time CDP** och **Adobe Journey Optimizer**: Din administratör måste ge dig behörighet **Aktivera AI-assistenten** så att du kan komma åt AI-assistenten. Din administratör måste också ge dig behörighet **Visa användningsinformation** så att du kan ställa frågor om driftsinsikter i AI Assistant. Båda behörigheterna anges av administratören i användargränssnittet för behörigheter.
 
-* **Customer Journey Analytics**: Din administratör måste ge dig behörighet att komma åt AI Assistant via [Customer Journey Analytics Access Control](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control). På så sätt kan du ställa frågor om produktkunskap och datainsikter.
+* **Customer Journey Analytics**: Din administratör måste ge dig behörighet att komma åt AI Assistant via [Customer Journey Analytics Access Control](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/technotes/access-control). På så sätt kan du ställa frågor om produktkunskap och datainsikter.
 
 >[!NOTE]
 >
