@@ -3,9 +3,9 @@ description: Lär dig visualisera data med Data Insights Agent i Customer Journe
 title: Visualisera data med Data Insights Agent i Customer Journey Analytics
 role: User, Admin
 solution: Customer Journey Analytics
-source-git-commit: 04a73ac0f705cd3a2184fb2f8599aff85b7bb5e5
+source-git-commit: 539ca6244b7de61275af53e993b59310767aa825
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2424'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Data Insights Agent är tillgängligt för berättigade kunder under en begränsad tid. Du kan få tillgång till Data Insights Agent till och med den 28 februari 2026. Om du vill fortsätta använda Data Insights Agent utan avbrott kontaktar du Adobe kontorepresentant för att få veta mer om Adobe Experience Platform Agent Orchestrator licenser.
+>Data Insights Agent är tillgängligt för berättigade kunder under en begränsad tid. Du kan få tillgång till Data Insights Agent till och med den 28 februari 2026. Om du vill fortsätta använda Data Insights Agent efter detta datum utan avbrott kontaktar du Adobe kontorepresentant för att få veta mer om Adobe Experience Platform Agent Orchestrator licenser.
 
-Data Insights Agent, som är tillgängligt från [AI-assistenten](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) i Customer Journey Analytics, är en generativ AI-konversationsagent som snabbt och effektivt besvarar frågor om dina data. Det bygger upp relevanta visualiseringar i Analysis Workspace med komponenter från datavyn och med era faktiska data.
+Data Insights Agent, som är tillgängligt från [AI-assistenten](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) i Customer Journey Analytics, är en generativ AI-konversationsagent som snabbt och effektivt besvarar frågor om dina data. Det bygger upp relevanta visualiseringar i Analysis Workspace med komponenter från datavyn och med era faktiska data.
 
 Genom att använda Data Insights Agent för att besvara datacentrerade frågor i Analysis Workspace kan du spara oräkneliga timmar som du annars skulle behöva lägga på att manuellt skapa visualiseringar i Analysis Workspace och bekanta dig med komponenterna i datavyn.
 
@@ -52,7 +52,7 @@ Följande parametrar styr åtkomsten till Data Insights Agent i Customer Journey
 
 * **Behörigheter**: Nödvändiga behörigheter måste beviljas i [!UICONTROL Adobe Admin Console] innan användare kan komma åt Data Insights Agent.
 
-  Om du vill bevilja behörigheter måste en [produktprofiladministratör](https://helpx.adobe.com/se/enterprise/using/manage-product-profiles.html) utföra följande steg i [!UICONTROL Admin Console]:
+  Om du vill bevilja behörigheter måste en [produktprofiladministratör](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) utföra följande steg i [!UICONTROL Admin Console]:
 
    1. I **[!UICONTROL Admin Console]** väljer du fliken **[!UICONTROL Products]** för att visa sidan **[!UICONTROL All products and services]**.
    1. Välj **[!UICONTROL Customer Journey Analytics]**.
@@ -61,7 +61,7 @@ Följande parametrar styr åtkomsten till Data Insights Agent i Customer Journey
 
       ![Fliken Behörigheter i Admin Console](images/cja-agent/ai-assistant-permissions-tab.png)
 
-   1. Markera redigeringsikonen **[!UICONTROL Reporting Tools]** Redigera![&#x200B; på raden &#x200B;](images/cja-agent/Edit.svg) i den angivna tabellen.
+   1. Markera redigeringsikonen **[!UICONTROL Reporting Tools]** Redigera![ på raden ](images/cja-agent/Edit.svg) i den angivna tabellen.
    1. Bläddra till eller sök efter **[!UICONTROL AI Assistant: Product Knowledge]** och välj sedan plusikonen ![AddCircle](images/cja-agent/AddCircle.svg) bredvid den här behörigheten.
    1. Bläddra till eller sök efter **[!UICONTROL Data Insights Agent]** och välj sedan plusikonen ![AddCircle](images/cja-agent/AddCircle.svg) bredvid den här behörigheten.
 
@@ -71,7 +71,7 @@ Följande parametrar styr åtkomsten till Data Insights Agent i Customer Journey
 
    1. Välj **[!UICONTROL Save]** om du vill spara behörigheterna.
 
-  Mer information om åtkomstkontroll finns i [Åtkomstkontroll](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/technotes/access-control#access-control).
+  Mer information om åtkomstkontroll finns i [Åtkomstkontroll](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
 
 * **Datavyåtkomst**: Datavyer måste aktiveras för Data Insights Agent.
 
@@ -254,7 +254,7 @@ Nedan följer god praxis för din Customer Journey Analytics-konfiguration (data
 
 >[!MORELIKETHIS]
 >
->[Komponentinställningar](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[Dataordlista &#x200B;](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[Godkänn beräknat mått &#x200B;](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[Dela segment &#x200B;](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[Komponentinställningar](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[Dataordlista ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Godkänn beräknat mått ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[Dela segment ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
