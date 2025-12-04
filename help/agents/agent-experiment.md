@@ -1,9 +1,9 @@
 ---
 title: Experimentationsagent
 description: Lär dig hur du använder Experimentation Agent
-source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
+source-git-commit: 5694f15d82081eed8e762fea8aabc3da1e265b04
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -12,15 +12,21 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Experimentationsagenten är tillgänglig för alla kunder som har tillgång till AI Assistant. Du behöver dock följande behörigheter för att kunna använda Experimentationsagentfunktionerna fullt ut.
+>Experimentationsagenten är tillgänglig för alla kunder som har köpt den betalda licensen för Journey Optimizer Experimentation Accelerator och är sömlöst integrerade med antingen Adobe Target eller Adobe Journey Optimizer.
 >
->**Visa vyexperiment**: Med den här behörigheten kan du använda Experimentationsagenten för att visa insikter i experimentet direkt i AI Assistant.
->
->**Hantera experimentmetadata**: Med den här behörigheten kan du använda experimenteringsagenten för att skapa nya experiment direkt i AI-assistenten.
+>[Läs mer om Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview)
 
 ## Översikt
 
 **Experimentationsagenten** är ett AI-drivet verktyg som moderniserar hur du kan köra och hantera digitala experiment på webbplatser, i e-postmeddelanden, push-meddelanden och i program. **Experimentationsagenten** bygger på Adobe Experience Platform AI-plattformen och experimenteringsverktygen och hjälper dig att köra experiment mer effektivt, ordna affärsmål och generera åtgärdbara insikter, framhäva vad som fungerade, vad som inte gjorde det och var du ska experimentera härnäst.
+
+Följande behörigheter för att fullt ut kunna använda funktionerna för Experimentationsagenten.
+
+* **Visa experiment**: Med den här behörigheten kan du använda Experimentationsagenten för att visa insikter i experimentet direkt i AI Assistant.
+
+* **Hantera experimentmetadata**: Med den här behörigheten kan du använda experimenteringsagenten för att skapa nya experiment direkt i AI-assistenten.
+
+➡️ [Läs mer i Journey Optimizer Experimentation Accelerator-dokumentationen](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Som en del av Experimentation Accelerator-funktionen tillhandahåller agenten:
 
