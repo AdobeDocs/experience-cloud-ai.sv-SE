@@ -1,9 +1,9 @@
 ---
 title: Audience-agent
 description: Lär dig hur du använder Audience Agent för att skapa målgrupper, visa förändringar av målgrupper, identifiera dubblerade målgrupper och visa målgruppsinsikter.
-source-git-commit: f2b5bd1a59055a8ca6785abfc2d0a336eea7fd98
+source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,9 @@ Audience Agent i AI Assistant stöder följande användningsområden:
    - Upptäck XDM-fält som du kan använda för att definiera en målgrupp
 - Upptäck betydande förändringar i målgruppens storlek
    - På så sätt kan ni hitta målgrupper som plötsligt har växt eller krympt, så att ni bättre kan analysera potentiella marknadsförändringar
+- Skapa målgrupper
+   - Med den här kompetensen kan du skapa en målgrupp baserat på angivna attribut och händelser
+   - Med den här kompetensen kan ni dessutom uppskatta en målgrupps potentiella storlek innan ni skapar målgruppen, så att ni snabbt kan iterera på den mest effektiva målgruppen innan den är redo att aktiveras
 
 <!-- - Find your audience size and detect significant changes in audience size
   - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
@@ -44,12 +47,8 @@ Audience Agent i AI Assistant stöder följande användningsområden:
 - Discover XDM fields you can use to define an audience
   - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
 
-Audience Agent stöder för närvarande inte **för** följande funktioner:
+Audience Agent stöder för närvarande inte **för** följande funktion:
 
-- Kunskapsbaserad målgruppsproduktion
-   - Kunskapsbaserade målgrupper skapar en målgrupp baserat på angivna attribut och händelser
-   - Dessutom kan ni uppskatta målgruppens potentiella storlek innan ni skapar målgrupper. På så sätt kan ni snabbt iterera på den mest effektiva målgruppen innan den är redo att aktiveras
-   - Stöd för den här funktionen kommer snart
 - Målbaserad målgruppsundersökning
    - Målbaserad målgruppsundersökning gör att ni kan identifiera relevanta datauppsättningar och profiler som anpassats till ett affärsmål genom att tillämpa maskininlärningsmodeller som benägenhet att köpa eller konvertera.
 
@@ -178,6 +177,80 @@ Vilken är min snabbast växande publik?
 ![AI-assistenten anger namnet på den snabbast växande publiken, liksom den aktuella storleken och tillväxtprocenten.](./images/audience/fastest-growing.png)
 
 +++
+
+### Skapa en målgrupp
+
+När du skapar en målgrupp med Audience Agent guidar AI Assistant dig genom en plan. Du kan till exempel be om att&quot;Skapa en publik bestående av personer som bor i Kalifornien&quot;. AI Assistant anger sedan den plan som ska ingå för att skapa målgruppen.
+
++++ Svar
+
+![AI-assistenten visar planen att skapa en målgrupp.](./images/audience/audience-create-plan.png)
+
++++
+
+Denna plan består av tre steg:
+
+1. [Identifiera målgruppsegenskaper](#identify)
+2. [Beräkna målgruppens storlek](#estimate)
+3. [Skapa och bevara en ny publik](#create)
+
+#### Identifiera målgruppsegenskaper {#identify}
+
+![Steg 1 av planen, som är att identifiera målgruppsegenskaper.](./images/audience/plan-step-1.png){align="center" width="80%"}
+
+När du har godkänt planen hämtar AI Assistant målgruppens egenskaper baserat på din första fråga.
+
++++ Svar
+
+![Målgruppsdefinitionen baseras på användarfrågan.](./images/audience/audience-create-definition.png)
+
+AI Assistant genererar den relevanta Profile Query Language (PQL) som ska användas av personer i Kalifornien. I det här fallet ser PQL-frågan ut så här:
+
+```sql
+homeAddress.state.equals("California", false)
+```
+
+Mer information om PQL finns i [PQL-översikten](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
+
++++
+
+Om målgruppsdefinitionen för AI-assistenten är korrekt kan du godkänna och gå vidare till nästa steg.
+
+#### Beräkna målgruppens storlek {#estimate}
+
+![Steg 2 av planen, som är att uppskatta den potentiella målgruppens storlek.](./images/audience/plan-step-2.png){align="center" width="80%"}
+
+När de identifierade publikegenskaperna har godkänts beräknas storleken på den potentiella publiken och målgruppsdefinitionsinformationen av AI Assistant.
+
++++ Svar
+
+![Exempeluppskattningen för den potentiella målgruppen visas. Den uppskattade storleken och segmentdefinitionen visas.](./images/audience/audience-create-estimate.png)
+
++++
+
+Om den beräknade storleken är korrekt kan du godkänna och gå vidare till nästa steg.
+
+#### Skapa och bevara nya målgrupper {#create}
+
+![Steg 3 av planen, som är att slutföra målgruppen.](./images/audience/plan-step-3.png){align="center" width="80%"}
+
+Slutligen, om egenskaperna och målgruppens storlek ser bra ut, kan du godkänna eller avvisa målgruppens arbete.
+
++++ Svar
+
+Först kan ni granska den föreslagna målgruppen via det datarutnät som tillhandahålls.
+
+![Granskningsskärmen visas.](./images/audience/audience-create-review.png)
+
+Om målgruppen ser korrekt ut kan du acceptera förslaget genom att välja **[!UICONTROL Create]** för att slutföra målgruppen.
+
+![Det fullständiga förslaget för målgruppen visas.](./images/audience/audience-create-proposal.png)
+
++++
+
+Publiken är nu skapad.
+
+![Målgruppsförslaget accepterades och målgruppen skapades.](./images/audience/audience-finish-create.png){align="center" width="80%"}
 
 ## Nästa steg
 
