@@ -214,7 +214,7 @@ AI Assistant genererar den relevanta Profile Query Language (PQL) som ska använ
 homeAddress.state.equals("California", false)
 ```
 
-Mer information om PQL finns i [PQL-översikten](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
+Mer information om PQL finns i [PQL-översikten](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/pql/overview).
 
 +++
 
