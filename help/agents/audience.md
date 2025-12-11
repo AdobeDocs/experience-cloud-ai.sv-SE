@@ -1,9 +1,9 @@
 ---
 title: Audience-agent
 description: Lär dig hur du använder Audience Agent för att skapa målgrupper, visa förändringar av målgrupper, identifiera dubblerade målgrupper och visa målgruppsinsikter.
-source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
+source-git-commit: effd4fe4123953b6af375dfb46fcc669b2e35df1
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,10 @@ Vilken är min snabbast växande publik?
 
 ### Skapa en målgrupp
 
+>[!AVAILABILITY]
+>
+>Du kan bara använda Skapa målgruppskunskap om du är en del av programmet Agent Orchestrator Explorer. Mer information får du av Adobe kundtjänst.
+
 När du skapar en målgrupp med Audience Agent guidar AI Assistant dig genom en plan. Du kan till exempel be om att&quot;Skapa en publik bestående av personer som bor i Kalifornien&quot;. AI Assistant anger sedan den plan som ska ingå för att skapa målgruppen.
 
 +++ Svar
@@ -210,7 +214,7 @@ AI Assistant genererar den relevanta Profile Query Language (PQL) som ska använ
 homeAddress.state.equals("California", false)
 ```
 
-Mer information om PQL finns i [PQL-översikten](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/pql/overview).
+Mer information om PQL finns i [PQL-översikten](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
 
 +++
 
