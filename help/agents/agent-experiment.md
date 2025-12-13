@@ -14,7 +14,7 @@ ht-degree: 0%
 >
 >Experimentationsagenten är tillgänglig för alla kunder som har köpt den betalda licensen för Journey Optimizer Experimentation Accelerator och är sömlöst integrerade med antingen Adobe Target eller Adobe Journey Optimizer.
 >
->[Läs mer om Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview)
+>[Läs mer om Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/sv/docs/experimentation-accelerator/using/overview)
 
 ## Översikt
 
@@ -26,7 +26,7 @@ Följande behörigheter för att fullt ut kunna använda funktionerna för Exper
 
 * **Hantera experimentmetadata**: Med den här behörigheten kan du använda experimenteringsagenten för att skapa nya experiment direkt i AI-assistenten.
 
-➡️ [Läs mer i Journey Optimizer Experimentation Accelerator-dokumentationen](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [Läs mer i Journey Optimizer Experimentation Accelerator-dokumentationen](https://experienceleague.adobe.com/sv/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Som en del av Experimentation Accelerator-funktionen tillhandahåller agenten:
 
