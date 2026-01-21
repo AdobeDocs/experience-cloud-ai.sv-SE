@@ -5,10 +5,10 @@ user-guide-description: Lär dig använda AI-assistenten för att snabba upp arb
 description: Läs mer om AI Assistant i Experience Cloud. Förbättra produktkunskapen och få driftsinsikter med hjälp av AI i Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 864002185f3745ca76180af192f616d1e5da0791
+source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 42%
+source-wordcount: '80'
+ht-degree: 45%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 42%
    - [Audience-agent](./agents/audience.md)
    - [Data Insights Agent](./agents/cja-data-insights-agent.md)
    - [Experimentent](./agents/agent-experiment.md)
-   - [Reseanalysagent](./agents/ajo-agent-analyze.md)
-   - [Journey Create Agent](./agents/ajo-agent-create.md)
+   - [Journey Agent](./agents/ajo-agent.md)
    - [Produktsupportagent](./agents/product-support.md)
 

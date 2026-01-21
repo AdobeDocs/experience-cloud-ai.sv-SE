@@ -1,9 +1,9 @@
 ---
 title: AI i Experience Cloud-program
 description: Läs om hur Experience Cloud-program använder generativ AI (GenAI), AI Assistant och agentisk AI.
-source-git-commit: 8c05562121071874002afd6d248f16186616da55
+source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 11%
 
 ---
@@ -66,7 +66,7 @@ Med agenten för reseanalys kan Adobe Journey Optimizer-användare:
 - Upptäck och lös schemaläggnings- eller målgruppskonflikter.
 - Analysera prestanda och bortfallspunkter.
 
-Läs dokumentationen för [reseanalysagenten](./agents/ajo-agent-analyze.md) om du vill ha mer information.
+Mer information finns i [Journey Agent-dokumentationen](./agents/ajo-agent.md).
 
 #### Produktsupportagent
 
