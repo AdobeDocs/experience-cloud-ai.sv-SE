@@ -22,9 +22,9 @@ Journey Agent har två huvudfärdigheter:
 - **Resa - skapa agent**: Bygg och konfigurera marknadsföringsresor med hjälp av meddelanden på naturligt språk
 - **Reseanalysagent**: Analysera resor, identifiera problem, identifiera insikter och optimera kundengagemang
 
----
+&#x200B;---
 
-# Resa - Skapa agent: Kompetensöversikt och användarhandbok
+&#x200B;# Resa - Skapa agent: Kompetensöversikt och användarhandbok
 
 ## Översikt
 
@@ -161,9 +161,9 @@ När en användare kommer till min butiksplats skickar du ett välkomstmeddeland
 - **Planera meddelandeinnehåll**: Ha din meddelandestrategi definierad innan resan skapas.
 - **Fundera på kundupplevelsen**: Designreseflöden som respekterar kundernas preferenser och undviker överkommunikation.
 
----
+&#x200B;---
 
-# Reseanalysagent: Kompetensöversikt och användarhandbok
+&#x200B;# Reseanalysagent: Kompetensöversikt och användarhandbok
 
 ## Översikt
 
@@ -311,7 +311,7 @@ Så här maximerar du effektiviteten i Journey Agent Analyze:
 - **Övervaka regelbundet**: Schemalägg regelbundna granskningar av reseprestanda för att identifiera trender och avvikelser.
 - **Optimera segmentering**: Kontrollera att målgruppssegmenteringen är balanserad för att undvika trötthet och maximera engagemanget.
 
----
+&#x200B;---
 
 ## Presentationer och bilder
 
