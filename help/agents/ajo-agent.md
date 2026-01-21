@@ -4,7 +4,7 @@ description: En omfattande guide till Journey Agent som gör det möjligt att sk
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
+source-git-commit: 229d349d971ffaba3f2f2fb989e363d96a8d7a70
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 0%
@@ -22,9 +22,7 @@ Journey Agent har två huvudfärdigheter:
 - **Resa - skapa agent**: Bygg och konfigurera marknadsföringsresor med hjälp av meddelanden på naturligt språk
 - **Reseanalysagent**: Analysera resor, identifiera problem, identifiera insikter och optimera kundengagemang
 
-&#x200B;---
-
-&#x200B;# Resa - Skapa agent: Kompetensöversikt och användarhandbok
+## Resa - Skapa agent: Kompetensöversikt och användarhandbok
 
 ## Översikt
 
@@ -161,15 +159,13 @@ När en användare kommer till min butiksplats skickar du ett välkomstmeddeland
 - **Planera meddelandeinnehåll**: Ha din meddelandestrategi definierad innan resan skapas.
 - **Fundera på kundupplevelsen**: Designreseflöden som respekterar kundernas preferenser och undviker överkommunikation.
 
-&#x200B;---
-
-&#x200B;# Reseanalysagent: Kompetensöversikt och användarhandbok
+## Reseanalysagent: Kompetensöversikt och användarhandbok
 
 ## Översikt
 
 Med Journey Agent kan Journey Optimizer-användare analysera och optimera resor med ett naturligt språkgränssnitt. Med Journey Agent kan man snabbt hitta och lösa scheman- och/eller målgruppskonflikter, upptäcka när man överger en resa och ge insikter eller rekommendationer. Det ger praktikanterna möjlighet att fatta datadrivna beslut, förbättra kundengagemanget och effektivisera resesamordning.
 
-Läs mer och upptäck agenten i den här [översikten](https://experienceleague.adobe.com/sv/slides/journey-agent-overview).
+Läs mer och upptäck agenten i den här [översikten](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -310,8 +306,6 @@ Så här maximerar du effektiviteten i Journey Agent Analyze:
 - **Definiera tydliga mål**: Innan du analyserar resor måste du fastställa tydliga mål (t.ex. förbättra kundlojalitet, öka konverteringarna).
 - **Övervaka regelbundet**: Schemalägg regelbundna granskningar av reseprestanda för att identifiera trender och avvikelser.
 - **Optimera segmentering**: Kontrollera att målgruppssegmenteringen är balanserad för att undvika trötthet och maximera engagemanget.
-
-&#x200B;---
 
 ## Presentationer och bilder
 
