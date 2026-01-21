@@ -165,7 +165,7 @@ När en användare kommer till min butiksplats skickar du ett välkomstmeddeland
 
 Med Journey Agent kan Journey Optimizer-användare analysera och optimera resor med ett naturligt språkgränssnitt. Med Journey Agent kan man snabbt hitta och lösa scheman- och/eller målgruppskonflikter, upptäcka när man överger en resa och ge insikter eller rekommendationer. Det ger praktikanterna möjlighet att fatta datadrivna beslut, förbättra kundengagemanget och effektivisera resesamordning.
 
-Läs mer och upptäck agenten i den här [översikten](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+Läs mer och upptäck agenten i den här [översikten](https://experienceleague.adobe.com/sv/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
