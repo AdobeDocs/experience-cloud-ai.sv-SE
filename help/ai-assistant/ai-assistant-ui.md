@@ -1,7 +1,7 @@
 ---
 title: Användargränssnittshandbok för AI Assistant
 description: Lär dig hur du kommer åt och använder AI Assistant i användargränssnittet.
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 0e7306c50fbb6913bfd08d9d31484ec1690be91d
 workflow-type: tm+mt
 source-wordcount: '1767'
 ht-degree: 0%
@@ -72,7 +72,7 @@ I spårvyn får du snabb åtkomst till chatt, sökningar, uppdateringar, konvers
 
 I det här avsnittet finns en översikt över de viktigaste funktionerna och navigeringsalternativen i AI Assistant-gränssnittet. Där beskrivs hur du får tillgång till AI Assistant, hur du arbetar med layout och kontroller i både helskärmsläge och på räls. Här presenteras även viktiga verktyg som konversationer, inmatningsfunktioner, automatisk komplettering, kontextinställningar och sökningsfrågor. I följande avsnitt ges detaljerad vägledning om hur du använder dessa funktioner för att interagera med AI Assistant och få ut så mycket som möjligt av din upplevelse.
 
-### Identifieringsfrågor
+### Identifieringsfrågor {#discovery-prompts}
 
 Du kan använda AI Assistants identifieringsfunktion för att visa en lista över allmänna ämnen, grupperade i entiteter, som AI Assistant stöder. Identifieringsprompterna varierar beroende på startpunkten.
 
