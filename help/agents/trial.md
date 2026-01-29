@@ -19,13 +19,13 @@ ht-degree: 2%
 ## Vad finns i testversionen?
 
 - **AI Assistant**: Ett helsidigt, engagerande konversationsgränssnitt som drivs av Agent Orchestrator och fungerar oberoende av produkt, vilket gör att formgivare som använder aktiverade Experience Cloud-produkter kan utnyttja funktionerna GenAI och Agentic AI. Mer information finns i [Gränssnittsguiden för AI-assistenten](../ai-assistant/ai-assistant-ui.md).
-- **Adobe Experience Platform-agenter**: Ändamålsenligt byggda AI-agenter som är skickliga på att leverera vanliga jobb i domänkategorier för kundupplevelser. Ni kan utnyttja Agents för att utöka er kapacitet att skapa och leverera upplevelser snabbare och med större effekt, vilket ger produktivitet och effektivitet på nästa nivå. Läs dokumentationen om [AI för agenter i Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/agentic-ai) om hur agenter kan användas i varje Experience Cloud-program.
+- **Adobe Experience Platform-agenter**: Ändamålsenligt byggda AI-agenter som är skickliga på att leverera vanliga jobb i domänkategorier för kundupplevelser. Ni kan utnyttja Agents för att utöka er kapacitet att skapa och leverera upplevelser snabbare och med större effekt, vilket ger produktivitet och effektivitet på nästa nivå. Läs dokumentationen om [AI för agenter i Experience Cloud](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/agentic-ai) om hur agenter kan användas i varje Experience Cloud-program.
 
 ## Information om testprogram
 
 Adobe avgör om du är berättigad till testversionen efter eget gottfinnande. Kunder som för närvarande har eller tidigare har haft en Adobe Experience Platform Agent Orchestrator Promotion-licens eller en licens för Experience Platform Agents AI Credits är inte berättigade till testversionen.
 
-Berättigade kunder får ett initialt engångsberättigande på upp till 10 000 AI-krediter att använda för valfri kombination av jobb (beroende på dina befintliga licenser till Experience Cloud-program) som listas i [AI-tabellen över kreditförbrukning](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Du kan spåra dina AI-krediter med kontrollpanelen för licensanvändning i Adobe Experience Platform användargränssnitt. Mer information finns i [dokumentationen för kontrollpanelen för licensanvändning](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+Berättigade kunder får ett initialt engångsberättigande på upp till 10 000 AI-krediter att använda för valfri kombination av jobb (beroende på dina befintliga licenser till Experience Cloud-program) som listas i [AI-tabellen över kreditförbrukning](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Du kan spåra dina AI-krediter med kontrollpanelen för licensanvändning i Adobe Experience Platform användargränssnitt. Mer information finns i [dokumentationen för kontrollpanelen för licensanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
