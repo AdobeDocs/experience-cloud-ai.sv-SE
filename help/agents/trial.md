@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Följande video är avsedd att ge stöd för din förståelse av den användningsbundna testversionen av Adobe Experience Platform Agents.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480228?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480232?captions=swe&learn=on)
 
 ## Vad finns i testversionen?
 
