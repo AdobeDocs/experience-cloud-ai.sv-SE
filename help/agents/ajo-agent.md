@@ -4,9 +4,9 @@ description: En omfattande guide till Journey Agent som gör det möjligt att sk
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 229d349d971ffaba3f2f2fb989e363d96a8d7a70
+source-git-commit: aba0b2f7f819f762c336c4dfeb952326a0814800
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2608'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,21 @@ ht-degree: 0%
 
 Med Journey Agent kan Journey Optimizer-användare skapa, analysera och optimera marknadsföringsresor med ett naturligt språkgränssnitt. Med Journey Agent kan yrkesutövare snabbt skapa resor, upptäcka och lösa schemaläggnings- eller målgruppskonflikter, analysera prestanda och bortfall samt identifiera högpresterande resor som kan återskapas för framtida kampanjer. Det ger yrkesutövare möjlighet att fatta datadrivna beslut, förbättra kundengagemanget och effektivisera resesamordning.
 
-Journey Agent har två huvudfärdigheter:
-- **Resa - skapa agent**: Bygg och konfigurera marknadsföringsresor med hjälp av meddelanden på naturligt språk
-- **Reseanalysagent**: Analysera resor, identifiera problem, identifiera insikter och optimera kundengagemang
+Journey Agent består av tre huvudjobb:
 
-## Resa - Skapa agent: Kompetensöversikt och användarhandbok
+- **Reseskapande**: Bygg och konfigurera marknadsföringsresor med hjälp av uppmaningar på naturligt språk
+- **Skapa kanalinnehåll**: Generera, redigera och hantera kanalspecifikt innehåll (e-post, push, SMS) för resor med AI-baserad innehållsgenerering
+- **Reseanalys**: Analysera resor, identifiera problem, identifiera insikter och optimera kundengagemang
+
+## Reseskapande: Användningsexempel, kontoförkunskaper och användarhandbok
 
 ## Översikt
 
-Med Journey Create Agent kan Journey Optimizer-användare skapa och konfigurera marknadsföringsresor med ett naturligt språkgränssnitt. Med Journey Create Agent kan man snabbt skapa resor genom att beskriva kraven i samtal. Agenten effektiviserar framtagningen av resor så att marknadsförarna kan fokusera på strategi istället för teknisk konfiguration.
+Med Journey Create kan Journey Optimizer-användare skapa och konfigurera marknadsföringsresor med ett naturligt språkgränssnitt. Med Journey Create kan man snabbt skapa resor genom att beskriva kraven i samtal. Agenten effektiviserar framtagningen av resor så att marknadsförarna kan fokusera på strategi istället för teknisk konfiguration.
 
 >[!AVAILABILITY]
 >
->Journey Create Agent är tillgänglig för alla kunder som har tillgång till AI Assistant. Du måste dock ha följande behörigheter för att kunna använda funktionerna för Create Agent på resan till fullo:
+>Journey Create är tillgängligt för alla kunder som har tillgång till AI Assistant. Du behöver dock följande behörigheter för att kunna använda Journey Create-funktioner fullt ut:
 >
 >**Hantera resor**: Med den här behörigheten kan du skapa nya resor direkt i AI Assistant.
 >
@@ -42,9 +44,9 @@ Med Journey Create Agent kan Journey Optimizer-användare skapa och konfigurera 
 
 ## Användningsfall
 
-### Viktiga användningsexempel för agenten för att skapa resa
+### Viktiga användningsexempel för Create Journey
 
-Resans Create Agent-kunskaper erbjuder funktioner som kan utnyttjas för att snabba upp marknadsföringen:
+Journey Create erbjuder funktioner som kan användas för att snabba upp marknadsföringen:
 
 1. **Händelseutlöst skapande av resa**
 
@@ -78,7 +80,7 @@ För vart och ett av dessa användningsområden översätter agenten de naturlig
 
 ### **I omfång**
 
-Följande funktioner stöds av Journey Create Agent:
+Följande funktioner stöds av Journey Create:
 
 - **Skapa naturliga språkresor**: Används för att beskriva reseflödet på konversationsspråk.
 - **Händelsebaserade och målgruppsbaserade resor**: Stöder både utlösarbaserade och schemalagda resetyper, även affärshändelser och målgruppskvalifikationer.
@@ -95,7 +97,6 @@ Följande funktioner stöds för närvarande inte:
 - **Korsresssamordning**
 - **A/B-testningskonfiguration**
 - **Komplexa dataomvandlingar**
-- **Skapa innehållsmeddelande**
 
 ## Exempeluppmaningar
 
@@ -141,7 +142,7 @@ Medarbetaren ger vägledning och exempel som hjälper dig att definiera dina res
 
 ### Uppmana till bästa praxis
 
-Så här maximerar du effekten av Journey Create Agent:
+Så här maximerar du effekten av Journey Create:
 
 1. **Var specifik**: Ange tydliga detaljer om dina resemål, målgrupper och önskade åtgärder. Inkludera information om kanaler, tidsinställningar och villkor.
 1. **Ange timing**: Ange tydligt väntetider mellan åtgärder och när resan ska påbörjas.
@@ -159,13 +160,95 @@ När en användare kommer till min butiksplats skickar du ett välkomstmeddeland
 - **Planera meddelandeinnehåll**: Ha din meddelandestrategi definierad innan resan skapas.
 - **Fundera på kundupplevelsen**: Designreseflöden som respekterar kundernas preferenser och undviker överkommunikation.
 
-## Reseanalysagent: Kompetensöversikt och användarhandbok
+## Skapa innehåll för kanaler: Användningsexempel, Agentfärdigheter och Användarhandbok
+
+>[!AVAILABILITY]
+>
+>Den här funktionen är tillgänglig för alla kunder med begränsad tillgänglighet. Kontakta din Adobe-representant för att få åtkomst.
+
+## Översikt
+
+Med Skapa kanalinnehåll kan Journey Optimizer-användare generera, redigera och hantera kanalspecifikt innehåll för resor med hjälp av AI-driven innehållsgenerering.
+
+## Användningsfall
+
+### Viktiga användningsexempel för Skapa kanalinnehåll
+
+1. **Kanalspecifik innehållsgenerering**: Generera innehåll för e-post, push-meddelanden, SMS och andra kanaler med hjälp av naturliga språkuppmaningar.
+
+1. **Mallbaserat innehåll**: Bläddra bland och välj bland tillgängliga mallar med förhandsvisningsfunktioner.
+
+1. **Hantering av flerkanalsinnehåll**: Generera och hantera innehåll för flera kanaler i samma arbetsflöde.
+
+1. **Kontextredigering av innehåll**: Öppna genererat innehåll i Designer för redigering och förfining.
+
+1. **Förfining och upprepning av innehåll**: Återskapa innehåll med olika toner eller format med åtgärden Återskapa.
+
+1. **Integrering av resans arbetsyta**: Välj resor från lagret och visa associerade kanaler.
+
+## Kompetens inom och utanför omfånget
+
+### **I omfång**
+
+Följande funktioner stöds av Skapa kanalinnehåll:
+
+- **AI-driven innehållsgenerering**: Generera innehåll för e-post, push, SMS och andra kanaler med hjälp av naturliga språkkommandon.
+- **Mallhantering**: Bläddra bland och välj bland tillgängliga mallar med förhandsvisningsfunktioner.
+- **Kontextredigering**: Öppna genererat innehåll i Designer för redigering och förfining.
+- **Återgivning av innehåll**: Återskapa innehåll med olika toner, format eller meddelanden med åtgärden Återskapa.
+- **Flerkanalsstöd**: Generera och hantera innehåll för flera kanaler i samma arbetsflöde.
+- **Resurslageråtkomst**: Välj resor från lager och visa associerade kanaler.
+
+### **Odefinierat**
+
+Följande funktioner stöds för närvarande inte:
+
+- **Kontroller av varumärkesjustering och innehållskvalitet**
+- **Infoga innehållsnoder direkt på arbetsytan**
+- **Mallimport**
+
+## Exempeluppmaningar
+
+### Skapa innehåll
+
+&quot;Generera e-postinnehåll för min välkomstresa. Skapa ett välkomstmejl till nya kunder med en vänlig ton och inkludera ett rabatterbjudande på 10 %.&quot;
+
+&quot;Lägg till innehåll för kanalmejl för min välkomstresa.&quot;
+
+&quot;Generera ett push-meddelande för min butiks besöksresa. Skapa ett välkomstmeddelande som uppmuntrar kunderna att checka in och få ett specialerbjudande.&quot;
+
+&quot;Generera SMS-innehåll för min händelseutlösta resa. Skapa ett kort meddelande som informerar kunderna om en blixtförsäljning med en call-to-action.&quot;
+
+### Mallval
+
+&quot;Visa mig tillgängliga e-postmallar för min säsongskampanj.&quot;
+
+&quot;Välj en mall för mitt e-postmeddelande som har en modern, ren design.&quot;
+
+### Redigera och förfina innehåll
+
+&quot;Öppna e-postinnehållet i Content Designer så att jag kan anpassa designen.&quot;
+
+&quot;Generera om innehållet i push-meddelanden med en mer tillfällig ton.&quot;
+
+&quot;Uppdatera e-postinnehållet så att det innehåller en kampanjkod.&quot;
+
+## Bästa praxis
+
+### Uppmana till bästa praxis
+
+1. **Var specifik**: Ange tydlig information om innehållstyp, ton, målgrupp och nyckelmeddelanden.
+1. **Ange kanal**: Ange tydligt vilken kanal du skapar innehåll för (e-post, push, SMS).
+1. **Definiera ton**: Ange önskad ton (vänlig, formell, tillfällig, brådskande).
+1. **Iterera och förfina**: Använd regenereringsåtgärden för att förfina innehållet tills det uppfyller dina krav.
+
+## Reseanalys: Användningsexempel, Agentinskunskaper och Användarhandbok
 
 ## Översikt
 
 Med Journey Agent kan Journey Optimizer-användare analysera och optimera resor med ett naturligt språkgränssnitt. Med Journey Agent kan man snabbt hitta och lösa scheman- och/eller målgruppskonflikter, upptäcka när man överger en resa och ge insikter eller rekommendationer. Det ger praktikanterna möjlighet att fatta datadrivna beslut, förbättra kundengagemanget och effektivisera resesamordning.
 
-Läs mer och upptäck agenten i den här [översikten](https://experienceleague.adobe.com/sv/slides/journey-agent-overview).
+Läs mer och upptäck agenten i den här [översikten](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -183,9 +266,9 @@ Läs mer och upptäck agenten i den här [översikten](https://experienceleague.
 
 ## Användningsfall
 
-### Viktiga användningsexempel för Journey Agent Analytics
+### Viktiga användningsexempel för reseanalys
 
-Journey Agent Analyze erbjuder en rad funktioner som kan utnyttjas för att optimera marknadsföringen:
+Journey Analyze erbjuder en rad funktioner som kan utnyttjas för att optimera marknadsföringen:
 
 1. **Resebortfallsanalys**
 
@@ -215,7 +298,7 @@ För var och en av dessa analyser identifierar agenten inte bara problem utan ti
 
 ### **I scope**
 
-Följande funktioner stöds av Journey Agent Analyze:
+Följande funktioner stöds av Journey Analyze:
 
 - **Reaktiva frågor**: Tillåter användare att ställa specifika frågor om reseprestanda, målgruppsanvändning och schemaläggningskonflikter.
 - **Integrering med andra agenter**: Samarbetar med Audience Agent och Data Insights Agent för djupgående analyser.
@@ -295,7 +378,7 @@ Använd dessa uppmaningar för att analysera potentiella konflikter mellan resor
 
 ### Fråga efter bästa praxis
 
-Så här maximerar du effektiviteten i Journey Agent Analyze:
+För att maximera effekten av Journey Analyze bör du följa dessa bästa metoder:
 
 1. **Var specifik**: Använd tydliga och koncisa uppmaningar för att få riktade insikter. I stället för att fråga&quot;Vad är mina resor?&quot; anger du&quot;Lista alla resor som skapades den senaste månaden&quot;.
 1. **Kombinera insikter**: Integrera insikter från Audience Agent och Data Insights Agent för en helhetsbild av kundresan.
