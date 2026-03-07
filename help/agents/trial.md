@@ -27,7 +27,7 @@ Följande video är avsedd att ge stöd för din förståelse av testversionen a
 
 Adobe avgör om du är berättigad till testversionen efter eget gottfinnande. Kunder som för närvarande har eller tidigare har haft en Adobe Experience Platform Agent Orchestrator Promotion-licens eller en licens för Experience Platform Agents AI Credits är inte berättigade till testversionen.
 
-Berättigade kunder får ett initialt engångsberättigande på upp till 10 000 AI-krediter att använda för valfri kombination av jobb (beroende på dina befintliga licenser till Experience Cloud-program) som listas i [AI-tabellen över kreditförbrukning](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Du kan spåra dina AI-krediter med kontrollpanelen för licensanvändning i Adobe Experience Platform användargränssnitt. Mer information finns i [dokumentationen för kontrollpanelen för licensanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/dashboards/guides/license-usage).
+Berättigade kunder får ett initialt engångsberättigande på upp till 10 000 AI-krediter att använda för valfri kombination av jobb (beroende på dina befintliga licenser till Experience Cloud-program) som listas i [AI-tabellen över kreditförbrukning](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/ai-credit-consumption). Du kan spåra dina AI-krediter med kontrollpanelen för licensanvändning i Adobe Experience Platform användargränssnitt. Mer information finns i [dokumentationen för kontrollpanelen för licensanvändning](https://experienceleague.adobe.com/sv/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ Testversionen lanseras för vissa Adobe Experience Cloud-kunder i faser så att 
 
 ### Hur mycket AI-krediter får jag och vad händer när dessa AI-krediter används?
 
-Berättigade kunder får upp till 10 000 AI-krediter för testversionen, som förbrukas när agenter kör jobb. Observera att dessa AI-krediter endast finns under testperioden och inte överförs om du licensierar ytterligare AI-krediter innan du använder de fullständiga 10 000 AI-krediterna. Mer information om AI-kreditförbrukning finns i [Handboken för agentjobb och AI-kreditförbrukning](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+Berättigade kunder får upp till 10 000 AI-krediter för testversionen, som förbrukas när agenter kör jobb. Observera att dessa AI-krediter endast finns under testperioden och inte överförs om du licensierar ytterligare AI-krediter innan du använder de fullständiga 10 000 AI-krediterna. Mer information om AI-kreditförbrukning finns i [Handboken för agentjobb och AI-kreditförbrukning](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/ai-credit-consumption).
 
 ### Kostar det här någonting?
 
