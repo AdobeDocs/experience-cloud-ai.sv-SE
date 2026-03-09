@@ -16,7 +16,7 @@ Läs det här dokumentet om du vill veta mer om funktioner som är inriktade på
 
 * Inga personuppgifter används av AI Assistant idag, inte ens i utbildningssyfte.
 * AI Assistant känner inte till konsumentdata.
-* Alla befintliga [åtkomstkontrollprinciper](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) respekteras av AI Assistant.
+* Alla befintliga [åtkomstkontrollprinciper](https://experienceleague.adobe.com/sv/docs/experience-platform/access-control/home) respekteras av AI Assistant.
    * Alla nya attributbaserade åtkomstkontrollprinciper återspeglas i AI Assistant efter högst 24 timmar&amp;stämpel;ast;
 * AI Assistant är en HIPAA-klar funktion när den används i kombination med Adobe Experience Platform Healthcare Shield.
 * Du kan visa en logg över dina tidigare interaktioner med AI Assistant med en 30-dagars bevarandeprincip.
