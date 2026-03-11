@@ -52,7 +52,7 @@ Följande parametrar styr åtkomsten till Data Insights Agent i Customer Journey
 
 * **Behörigheter**: Nödvändiga behörigheter måste beviljas i [!UICONTROL Adobe Admin Console] innan användare kan komma åt Data Insights Agent.
 
-  Om du vill bevilja behörigheter måste en [produktprofiladministratör](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) utföra följande steg i [!UICONTROL Admin Console]:
+  Om du vill bevilja behörigheter måste en [produktprofiladministratör](https://helpx.adobe.com/se/enterprise/using/manage-product-profiles.html) utföra följande steg i [!UICONTROL Admin Console]:
    1. I **[!UICONTROL Admin Console]** väljer du fliken **[!UICONTROL Products]** för att visa sidan **[!UICONTROL All products and services]**.
    1. Välj **[!UICONTROL Customer Journey Analytics]**.
    1. På fliken **[!UICONTROL Product Profiles]** väljer du titeln för den produktprofil som du vill ge åtkomst till [!UICONTROL AI Assistant: Product Knowledge].
@@ -70,7 +70,7 @@ Följande parametrar styr åtkomsten till Data Insights Agent i Customer Journey
 
    1. Välj **[!UICONTROL Save]** om du vill spara behörigheterna.
 
-  Mer information om åtkomstkontroll finns i [Åtkomstkontroll](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control).
+  Mer information om åtkomstkontroll finns i [Åtkomstkontroll](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/technotes/access-control#access-control).
 
 * **Datavyåtkomst**: Datavyer måste aktiveras för Data Insights Agent.
 
@@ -78,7 +78,7 @@ Följande parametrar styr åtkomsten till Data Insights Agent i Customer Journey
   >
   >Tänk på följande när du aktiverar datavyer:
   >* Du kan aktivera maximalt 50 datavyer per IMS-organisation. Om du aktiverar mer än 50 datavyer för alla produktprofiler för en viss organisation kommer Data Insights Agent att använda de 50 mest använda datavyer.
-  >  Du kan använda [info i Data Insights Agent-kolumnen i datavyer](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) för att visa antalet datavyer som har aktiverats för Data Insights Agent i din IMS-organisation.
+  >  Du kan använda [info i Data Insights Agent-kolumnen i datavyer](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views) för att visa antalet datavyer som har aktiverats för Data Insights Agent i din IMS-organisation.
   >* Data Insights Agent kan referera till de inkluderade datavyerna någon gång under samma dag som du aktiverar dem.
 
   Så här aktiverar du datavyer för Data Insights Agent:
@@ -89,7 +89,7 @@ Följande parametrar styr åtkomsten till Data Insights Agent i Customer Journey
 
       ![Aktivera datavyer för Data Insights Agent](/help/agents/images/cja-agent/data-view-enable-dia.png)
 
-      Mer information om hur du aktiverar datavyer för Data Insights Agent finns i [AI-inställningarna för en datavy](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md#ai-settings).
+      Mer information om hur du aktiverar datavyer för Data Insights Agent finns i [AI-inställningarna för en datavy](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-dataviews/create-dataview#ai-settings/help/data-views/create-dataview.md#ai-settings).
 
   Så här visar du antalet datavyer som har aktiverats för Data Insights Agent i din IMS-organisation:
 
@@ -176,7 +176,7 @@ Med Adobe Experience Platform Agent Orchestrator får du tillgång till funktion
 
 Agent Orchestrator tolkar er begäran, avgör vilka specialistagenter som behövs och ordnar dem för att leverera rätt svar. Den håller reda på sammanhanget över interaktioner i flera omgångar, så att du kan bygga vidare på tidigare frågor på ett naturligt sätt.
 
-Mer information finns i [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/products/experience-platform/agent-orchestrator.html).
+Mer information finns i [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/se/products/experience-platform/agent-orchestrator.html).
 
 ## Exempel på visualiseringsmeddelanden för data
 
@@ -266,7 +266,7 @@ Nedan följer god praxis för din Customer Journey Analytics-konfiguration (data
 
 >[!MORELIKETHIS]
 >
->[Komponentinställningar](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[Dataordlista &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[Godkänn beräknat mått &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[Dela segment &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[Komponentinställningar](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[Dataordlista &#x200B;](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[Godkänn beräknat mått &#x200B;](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[Dela segment &#x200B;](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-components/segments/seg-share)
