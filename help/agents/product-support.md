@@ -1,18 +1,14 @@
 ---
 title: Produktsupportagent
-description: Lär dig hur du kan använda Product Support Agent i AI-assistenten för att effektivisera felsökningen och ansökningsprocessen till kundsupportärenden.
-source-git-commit: adf65e0d4c623fbd74645006939702b64b0c1fdd
+description: Lär dig hur du kan använda Product Support Agent i AI Assistant för att effektivisera felsökningen och ansökningsprocessen till kundsupportärenden.
+source-git-commit: 57e123e7fed24c26403adbc637814ca6a9ccf68e
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 5%
+source-wordcount: '365'
+ht-degree: 0%
 
 ---
 
 # Produktsupportagent
-
->[!AVAILABILITY]
->
->Produktsupportagenten är tillgänglig för berättigade kunder under en begränsad tid. Tillgång till Product Support Agent upphör den 28 februari 2026. Om du vill fortsätta att använda Product Support Agent efter detta datum utan avbrott kontaktar du Adobe kontorepresentant för att få mer information om Adobe Experience Platform Agent Orchestrator-licenser.
 
 Product Support Agent är en självbetjäningsfelsöknings- och felsökningsfunktion i AI Assistant som du kan använda för Adobe Experience Platform-funktioner och -program.
 
@@ -61,5 +57,5 @@ När du är klar med dessa steg kan supportadministratörer i din onboardorganis
 
 Titta på följande video om du vill veta mer om hur du kan använda Product Support Agent för att felsöka utan att lämna dina arbetsflöden.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443187?captions=swe&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443183?learn=on)
 
