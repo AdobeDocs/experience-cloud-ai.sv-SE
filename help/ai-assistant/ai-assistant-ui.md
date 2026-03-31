@@ -1,9 +1,9 @@
 ---
 title: Användargränssnittshandbok för AI Assistant
 description: Lär dig hur du kommer åt och använder AI Assistant i användargränssnittet.
-source-git-commit: 434f438eca130ca76e5303ac7040082daaf46bc8
+source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2086'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Det här dokumentet gäller för AI Assistant (nästa generation). Mer information om AI Assistant (äldre) finns i [handboken för AI Assistant](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/home) i Adobe Experience Platform-dokumentationen.
+>Det här dokumentet gäller för AI Assistant (nästa generation). Mer information om AI Assistant (äldre) finns i [handboken för AI Assistant](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) i Adobe Experience Platform-dokumentationen.
 
 I följande tabell finns en jämförelse mellan AI Assistant (äldre) och AI Assistant (nästa generation):
 
@@ -20,9 +20,9 @@ I följande tabell finns en jämförelse mellan AI Assistant (äldre) och AI Ass
 | --- | --- | --- |
 | Användarupplevelse | AI Assistant (äldre) är endast tillgängligt på en panel på den högra listen. | AI Assistant (Next-Gen) finns både på den högra panelen och i en engagerande helskärmsupplevelse. |
 | Funktionens omfattning | Du kan använda AI Assistant (äldre) för både produktkunskap och driftsinsikter. | Du kan använda AI Assistant (Next-Gen) för produktkunskap, driftsinsikter samt avancerade agetiska färdigheter och körning av uppgifter i flera steg. |
-| Plattformsarkitektur | AI Assistant (äldre) är inte byggt på Agent Orchestrator-stacken. | AI Assistant (Next-Gen) drivs av [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/sv/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator) vilket möjliggör utbyggbarhet och avancerad samordning mellan funktioner. |
+| Plattformsarkitektur | AI Assistant (äldre) är inte byggt på Agent Orchestrator-stacken. | AI Assistant (Next-Gen) drivs av [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator) vilket möjliggör utbyggbarhet och avancerad samordning mellan funktioner. |
 | Programtäckning | AI Assistant (äldre) är en programspecifik implementering. | Du kan använda AI Assistant (Next-Gen) för en enhetlig AI Assistant-upplevelse i alla Adobe Experience Cloud-program. |
-| Åtkomst och behörighetsmodell | Åtkomstmodell som omfattas av programmet och som anpassas efter enskilda produktgränser. | Alla användare har tillgång till AI Assistant (Next-Gen) och tillhörande Experience Platform-agenter. **Obs!**: <ul><li>**Adobe Experience Manager**: Din administratör måste ge dig behörighet att komma åt AI Assistant (Next-Gen) via [Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: Din administratör måste ge dig behörighet att komma åt AI Assistant via [Customer Journey Analytics Access Control](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/technotes/access-control?lang=en). På så sätt kan du ställa frågor om produktkunskap och datainsikter. |
+| Åtkomst och behörighetsmodell | Åtkomstmodell som omfattas av programmet och som anpassas efter enskilda produktgränser. | Alla användare har tillgång till AI Assistant (Next-Gen) och tillhörande Experience Platform-agenter. **Obs!**: <ul><li>**Adobe Experience Manager**: Din administratör måste ge dig behörighet att komma åt AI Assistant (Next-Gen) via [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: Din administratör måste ge dig behörighet att komma åt AI Assistant via [Customer Journey Analytics Access Control](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control?lang=en). På så sätt kan du ställa frågor om produktkunskap och datainsikter. |
 
 AI Assistant är ett intelligent, generativt AI-verktyg för konversationer som ökar produktiviteten och omdefinierar arbetet i Adobe Experience Platform-baserade program. Du kan använda AI Assistant för att komma åt Adobe Experience Platform Agents och andra AI-funktioner.
 
@@ -32,7 +32,7 @@ Läs den här guiden och lär dig hur du kan använda AI Assistant.
 
 >[!SLIDE](agent-orchestrator-ui)
 
-## Få tillgång till AI-assistenten
+## Access AI Assistant
 
 Det finns flera sätt att få åtkomst till AI-assistenten.
 
@@ -210,7 +210,7 @@ Popup-fönstret *[!UICONTROL Answer from...]* visas. Använd det här fönstret 
 | --- | --- | --- |
 | App | Det Experience Cloud-program som frågan gäller. | Experience Platform, Journey Optimizer, Customer Journey Analytics osv. |
 | Sandbox | Sandlådan som innehåller de datauppsättningar eller den information som frågan gäller. | Prod (VA7), dev. |
-| Datavy | När du använder AI Assistant med Customer Journey Analytics hjälper datavyn Data Insights Agent att förstå: <ul><li>Vilka datauppsättningar som ska frågas</li><li>Vilka datakomponenter som finns tillgängliga</li><li>Strukturera svaren om era data</li><li>Vilka visualiseringar som ska skapas i Analysis Workspace</li></ul> |
+| Datavy | När du använder AI Assistant med Customer Journey Analytics hjälper datavyn Data Insights Agent att förstå: <ul><li>Vilka datauppsättningar som ska frågas</li><li>Vilka datakomponenter som finns tillgängliga</li><li>Strukturera svaren om era data</li><li>Vilka visualiseringar som ska skapas i Analysis Workspace</li></ul> | |
 
 ![Panelen Svar från där informationskällor kan konfigureras.](./images/ai-assistant/inputs/answer-from.png)
 

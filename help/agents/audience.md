@@ -1,15 +1,15 @@
 ---
-title: Audience-agent
+title: Audience Agent
 description: Lär dig hur du använder Audience Agent för att skapa målgrupper, visa förändringar av målgrupper, identifiera dubblerade målgrupper och visa målgruppsinsikter.
-source-git-commit: effd4fe4123953b6af375dfb46fcc669b2e35df1
+source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
 
 
-# Audience-agent
+# Audience Agent
 
 >[!AVAILABILITY]
 >
@@ -38,14 +38,16 @@ Audience Agent i AI Assistant stöder följande användningsområden:
    - Med den här kompetensen kan du skapa en målgrupp baserat på angivna attribut och händelser
    - Med den här kompetensen kan ni dessutom uppskatta en målgrupps potentiella storlek innan ni skapar målgruppen, så att ni snabbt kan iterera på den mest effektiva målgruppen innan den är redo att aktiveras
 
-<!-- - Find your audience size and detect significant changes in audience size
+<!--
+  - Find your audience size and detect significant changes in audience size
   - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
 - Detect duplicate audiences
   - This lets you reduce redundancies with your created audiences
 - Find audiences based on full or partial attributes named
   - This lets you more easily navigate through your audience inventory
 - Discover XDM fields you can use to define an audience
-  - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
+  - This skill lets you more easily identify the right fields to use in your audience based on context and relevance 
+-->
 
 Audience Agent stöder för närvarande inte **för** följande funktion:
 
@@ -214,7 +216,7 @@ AI Assistant genererar den relevanta Profile Query Language (PQL) som ska använ
 homeAddress.state.equals("California", false)
 ```
 
-Mer information om PQL finns i [PQL-översikten](https://experienceleague.adobe.com/sv/docs/experience-platform/segmentation/pql/overview).
+Mer information om PQL finns i [PQL-översikten](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
 
 +++
 
