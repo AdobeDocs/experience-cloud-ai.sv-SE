@@ -125,7 +125,7 @@ Den första versionen finns som engelskspråkig version. Funktionerna är begrä
 
 >[!IMPORTANT]
 >
->Adobe Marketing Agent anropar olika Adobe-agenter och jobb beroende på vilka uppmaningar som skickas. Den underliggande Adobe-agenten som anropas använder AI-krediter som anges på sidan [Adobe Experience Platform-agentjobb och AI-kreditförbrukning](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+>Adobe Marketing Agent anropar olika Adobe-agenter och jobb beroende på vilka uppmaningar som skickas. Den underliggande Adobe-agenten som anropas använder AI-krediter som anges på sidan [Adobe Experience Platform-agentjobb och AI-kreditförbrukning](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/ai-credit-consumption).
 
 ## Bilaga
 
