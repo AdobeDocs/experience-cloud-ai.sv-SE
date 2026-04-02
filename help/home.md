@@ -1,10 +1,10 @@
 ---
 title: AI i Experience Cloud-program
 description: Läs om hur Experience Cloud-program använder generativ AI (GenAI), AI Assistant och agentisk AI.
-source-git-commit: 73d63e310783310d0e6fb3d696ded7d4edb5bede
+source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 0%
+source-wordcount: '846'
+ht-degree: 1%
 
 ---
 
@@ -78,15 +78,17 @@ Använd Product Support Agent för felsökning och felsökning:
 
 Mer information finns i dokumentationen för [Product Support Agent](./agents/product-support.md).
 
-#### Adobe Marketing Agent för [!DNL Microsoft 365 Copilot]
+<!--
+#### Adobe Marketing Agent for [!DNL Microsoft 365 Copilot]
 
-Använd Adobe Marketing Agent för [!DNL Microsoft 365 Copilot] för att hämta marknadsföringsinsikter från Experience Platform i [!DNL Microsoft 365] appar som [!DNL Teams], [!DNL Word], [!DNL Powerpoint] och [!DNL Excel]. Med den här agenten kan du
+Use the Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] to retrieve marketing insights from Experience Platform in [!DNL Microsoft 365] apps like [!DNL Teams], [!DNL Word], [!DNL Powerpoint], and [!DNL Excel]. With this agent, you can:
 
-- Snabbare, datadrivna marknadsföringsbeslut.
-- Minska tiden för att växla mellan verktyg.
-- Förenkla tillgången till målgrupps- och reseinsikter mellan olika team.
+- Make faster, data-driven marketing decisions.
+- Reduce time spent switching between tools.
+- Simplify access to audience and journey insights across teams.
 
-Mer information finns i [Adobe Marketing Agent-dokumentationen](./agents/ama-ms.md).
+Read the [Adobe Marketing Agent documentation](./agents/ama-ms.md) for more information.
+-->
 
 ## Komma igång
 

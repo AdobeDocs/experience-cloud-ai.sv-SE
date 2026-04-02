@@ -1,9 +1,9 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: Läs om hur du kan använda Adobe Marketing Agent for Microsoft 365 Copilot.
-source-git-commit: 5cf5e42c727cd5e48b1b817e150fb9862fc80c82
+source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Innan du kan använda Adobe Marketing Agent för [!DNL Microsoft 365 Copilot] m�
 
 ## Aktivera agenten för din organisation {#enable-the-agent-for-your-organization}
 
-Slutanvändare kan bara använda Adobe Marketing Agent efter att det har gjorts tillgängligt i din [!DNL Microsoft 365]-klient. **Arbeta med din [!DNL Microsoft 365] Copilot-administratör** (eller motsvarande administratör för Copilot-agenter i din organisation) för att aktivera åtkomst och tilldela agenten när din organisation kräver det.
+Slutanvändare kan bara använda Adobe Marketing Agent efter att det har gjorts tillgängligt i din [!DNL Microsoft 365]-klient. **Arbeta med din [!DNL Microsoft 365] Copilot-administratör** (eller motsvarande administratör för Copilot-agenter i din organisation) för att aktivera åtkomst och tilldela agenten efter behov.
 
 Vanliga resultat efter administratörskonfiguration är:
 
@@ -122,6 +122,10 @@ Agenten är avsedd att returnera skrivskyddade insikter och ändrar inte dina ku
 **Språk och omfång som stöds**
 
 Den första versionen finns som engelskspråkig version. Funktionerna är begränsade till skrivskyddade insikter. Agenten skapar eller uppdaterar inte marknadsföringsresurser eller konfigurationer.
+
+>[!IMPORTANT]
+>
+>Adobe Marketing Agent anropar olika Adobe-agenter och jobb beroende på vilka uppmaningar som skickas. Den underliggande Adobe-agenten som anropas använder AI-krediter som anges på sidan [Adobe Experience Platform-agentjobb och AI-kreditförbrukning](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
 
 ## Bilaga
 
